@@ -2,9 +2,7 @@
 import BaseLayout from "../src/components/BaseLayout.vue"
 </script>
 <template>
-    <BaseLayout/>
-  
-
+    <BaseLayout />
 </template>
 
 
