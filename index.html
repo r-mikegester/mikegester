@@ -4,8 +4,34 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="stylesheet" href="./tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=Lora:wght@700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mike Gester</title>
+    <style>
+      /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f2937;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #065f46;
+}
+    </style>
     <script>
       // It's best to inline this in `head` to avoid FOUC (flash of unstyled content) when changing pages or themes
       if (
@@ -19,10 +45,11 @@
       }
     </script>
   </head>
-  <body>
+  <body >
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
-    <script src="../path/to/flowbite/dist/flowbite.bundle.js"></script>
+    <script type="module" src="./node_modules/flowbite/dist/flowbite.js"></script>
+   
     
   </body>
 </html>
