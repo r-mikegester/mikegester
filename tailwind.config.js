@@ -29,8 +29,13 @@ module.exports = {
         'Apple Color Emoji',
         'Segoe UI Emoji',
         'Segoe UI Symbol',
-        'Noto Color Emoji'
+        'Noto Color Emoji',
+
       ],
+      'Lora': [
+        'Lora'
+      ],
+
       'sans': [
         'Inter',
         'ui-sans-serif',
