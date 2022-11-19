@@ -9,7 +9,7 @@ const router = createRouter({
             path: "/",
             name: "Home",
             component: HomePage,
-      
+
         },
 
         {
@@ -17,11 +17,17 @@ const router = createRouter({
             name: "Projects Page",
             component: () => import("../views/ProjectsPage.vue"),
         },
-      
+        {
+            path: "/:pathMatch(.*)*",
+            redirect: {
+                name: "404 Not Found Page",
+            },
+        },
+
     ],
-    scrollBehavior(to){
-        if (to.hash){
-            return{
+    scrollBehavior(to) {
+        if (to.hash) {
+            return {
                 el: to.hash,
 
             }
