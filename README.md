@@ -1,8 +1,8 @@
 # Personal Website Portfolio
 
-This directory is a brief example of a Vite/Vue.js site that can be deployed to Vercel with zero configuration.
+This portfolio will showcase my projects, works, and other life events 
 
-While this project uses Vue.js, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+While this porfolio website is at development, you can support me  [See all the supported frameworks](https://fb.gg/mkgstr).
 
 ## Deploy Your Own
 
@@ -20,10 +20,10 @@ To get started with Vue.js deployed with Vercel, you can use Vite (https://vitej
 $ yarn create @vitejs/app
 ```
 
-### Deploying From Your Terminal
+### Interested having a Personal Portfolio?
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+You can hire me to make you a Portfolio Website Design, feel free to contact me at [Facebook Page](https://fb.gg/mkgstr):
 
 ```shell
-$ vercel
+$ Support me by buying me a Coffee, will appreciate it a lot.
 ```
