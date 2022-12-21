@@ -1,62 +1,32 @@
-/** @type {import('tailwindcss').Config} */
-// tailwind.config.js
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 module.exports = {
-  darkMode: 'class', // false, 'class', 'media'
-  // ...
-  content: ["./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}", "./node_modules/flowbite/**/*.js"],
+  content: [
+    "./public/**/*.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    // "./node_modules/flowbite/**/*.js",
+  ],
+  darkMode: "class",
   theme: {
     extend: {
+      width: {
+        sidebar: "350px",
+        search: "400px",
+      },
+      rotate: {
+        137: "137deg",
+      },
+      backgroundColor: {
+        packed: "#EEF6FF",
+        // packed: "#f2f2f2", you can use this color if you like
+      },
       colors: {
-        primary: { "50": "#ecfdf5", "100": "#d1fae5", "200": "#a7f3d0", "300": "#6ee7b7", "400": "#34d399", "500": "#10b981", "600": "#059669", "700": "#047857", "800": "#065f46", "900": "#064e3b" }
-      }
+        primary: "#4F46E5",
+      },
+      fontFamily: {
+        lexend: "'Lexend', sans-serif",
+      },
     },
-    fontFamily: {
-      'body': [
-        'Inter',
-        'ui-sans-serif',
-        'system-ui',
-        '-apple-system',
-        'system-ui',
-        'Segoe UI',
-        'Roboto',
-        'Helvetica Neue',
-        'Arial',
-        'Noto Sans',
-        'sans-serif',
-        'Apple Color Emoji',
-        'Segoe UI Emoji',
-        'Segoe UI Symbol',
-        'Noto Color Emoji',
-
-      ],
-      'Lora': [
-        'Lora'
-      ],
-
-      'sans': [
-        'Inter',
-        'ui-sans-serif',
-        'system-ui',
-        '-apple-system',
-        'system-ui',
-        'Segoe UI',
-        'Roboto',
-        'Helvetica Neue',
-        'Arial',
-        'Noto Sans',
-        'sans-serif',
-        'Apple Color Emoji',
-        'Segoe UI Emoji',
-        'Segoe UI Symbol',
-        'Noto Color Emoji'
-      ]
-    }
-
   },
   plugins: [
     require('flowbite/plugin'), ('tailwind-scrollbar'),
   ],
-}
+};
