@@ -4,7 +4,7 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
     // "./node_modules/flowbite/**/*.js",
   ],
-  darkMode: "class",
+  darkMode: "class", //media, class
   theme: {
     extend: {
       width: {
@@ -27,6 +27,8 @@ module.exports = {
     },
   },
   plugins: [
-    require('flowbite/plugin'), ('tailwind-scrollbar'),
+    require('flowbite/plugin'),
+    require('tailwind-scrollbar'),
+    require('@tailwindcss/forms'),
   ],
 };
