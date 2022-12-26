@@ -2,10 +2,10 @@
     <!-- App -->
     <div class="flex bg-packed font-lexend dark:bg-gradient-to-b from-gray-500 to-gray-900">
         <div id="sidebar-scroll"
-            class="flex-sidebar lg:flex-auto w-sidebar lg:block hidden bg-white dark:bg-gray-800 border-r-2 dark:border-gray-700 h-screen lg:z-0 z-40 overflow-auto lg:relative fixed">
+            class="fixed z-40 hidden h-screen overflow-auto bg-white border-r-2 flex-sidebar lg:flex-auto w-sidebar lg:block dark:bg-gray-800 dark:border-gray-700 lg:z-0 lg:relative">
             <Sidebar />
         </div>
-        <div class="flex-auto w-full overflow-auto h-screen" id="body-scroll">
+        <div class="flex-auto w-full h-screen overflow-auto" id="body-scroll">
             <Header />
             <router-view />
             <Footer />
