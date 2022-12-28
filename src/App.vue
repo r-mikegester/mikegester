@@ -28,7 +28,7 @@ export default {
     components: {
         Header,
         Footer,
-        SidebarVue,
+        Sidebar,
     },
     mounted() {
         Scrollbar.init(document.querySelector("#body-scroll"));
