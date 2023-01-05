@@ -1,6 +1,6 @@
 <template>
   <!-- this header -->
-  <header class="bg-white  dark:bg-gray-800 p-2 border-b-2 dark:border-gray-700">
+  <header class="w-full bg-white  dark:bg-gray-800 p-2 border-b-2 dark:border-gray-700">
     <div class="wrap-header flex items-center justify-between flex-wrap">
       <div class="flex flex-no-shrink items-center">
         <button class="text-gray-500 lg:hidden ml-7 block" @click="sidebarToggle">
@@ -13,7 +13,7 @@
 
       </div>
 
-      <div class="mr-5 flex">
+      <div class="lg:mr-96 flex">
         <button id="theme-toggle" type="button" title="Change Theme"
           class="text-gray-500   hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-gray-400 rounded-md p-5">
           <svg id="theme-toggle-dark-icon" class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
@@ -58,7 +58,7 @@
 
         <transition name="fade">
           <div id="dropdownSmall" v-show="menu"
-            class="block absolute right-8 mt-20 z-50 w-96 border dark:border-gray-700 bg-white dark:bg-gray-800  rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
+            class="block absolute right-5 md:right-96  mt-20 z-50 w-96 border dark:border-gray-700 bg-white dark:bg-gray-800  rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
             <div class="flex py-3 px-4 text-sm text-gray-900 dark:text-gray-200">
               <div class="text-xl">Notifications</div>
             </div>

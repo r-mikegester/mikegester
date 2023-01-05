@@ -118,10 +118,10 @@
               class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
               Supporters
             </router-link>
-            <router-link to="/help"
+            <a href="https://mikegester.crisp.help/en/" target="_blank"
               class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
               Help
-            </router-link>
+            </a>
           </template>
         </menu-accordion>
         <div class="item mt-1">
