@@ -102,14 +102,11 @@
           <template v-slot:title> Extras </template>
           <template v-slot:content>
 
-            <router-link to="/ratingsandfeedback"
+            <router-link to="/testimonials"
               class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
-              Ratings and Feedback
+              Testimonials
             </router-link>
-            <router-link to="/releasenotes"
-              class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
-              Changelog
-            </router-link>
+
             <router-link to="/faq" aria-disabled="true"
               class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
               Frequently Asked Questions
@@ -124,6 +121,20 @@
             </a>
           </template>
         </menu-accordion>
+        <div class="item mt-1">
+          <router-link to="/documentation"
+            class="w-full flex text-left rounded-md box-border p-3 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+            <span class="mr-3 text-xl">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414A2 2 0 0016.414 5L14 2.586A2 2 0 0012.586 2H9z">
+                </path>
+                <path d="M3 8a2 2 0 012-2v10h8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path>
+              </svg>
+            </span>
+            <span class="w-full"> Documentation</span>
+          </router-link>
+        </div>
         <div class="item mt-1">
           <router-link to="/contact"
             class="w-full flex text-left rounded-md box-border p-3 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
@@ -151,26 +162,49 @@
             <span class="w-full"> About</span>
           </router-link>
         </div>
+
       </div>
 
       <p class="font-medium text-gray-400 mt-4 pt-5 dark:text-gray-600 border-t border-gray-200 dark:border-gray-700">
         Experimental
       </p>
-
-      <div class="item mt-1">
-        <router-link to="/comingsoon"
-          class="w-full flex text-left rounded-md box-border p-3 hover:bg-gray-100 text-gray-500 dark:hover:bg-gray-700">
-          <span class="mr-3 text-xl">
+      <div class="item my-3 text-gray-400">
+        <menu-accordion>
+          <template v-slot:icon>
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
                 d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z"
                 clip-rule="evenodd"></path>
             </svg>
-          </span>
-          <span class="w-full"> Coming Soon!</span>
-        </router-link>
+          </template>
+          <template v-slot:title> Coming Soon! </template>
+          <template v-slot:content>
+
+            <router-link to="/adminLogin"
+              class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+              Admin Login
+            </router-link>
+            <router-link to="/accentcolorpicker"
+              class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+              Accent Color Picker
+            </router-link>
+            <router-link to="/settings" aria-disabled="true"
+              class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+              Settings
+            </router-link>
+            <router-link to="/revamp"
+              class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+              Revamp Homepage
+            </router-link>
+            <router-link to="/toast"
+              class="w-full text-left block rounded-md p-3 my-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+              Toast Notifications
+            </router-link>
+          </template>
+        </menu-accordion>
 
       </div>
+
 
     </div>
 
