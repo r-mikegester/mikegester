@@ -10,8 +10,8 @@ import Contact from "../views/components/Contact.vue";
 import Help from "../views/Help.vue";
 import Supporters from "../views/Supporters.vue";
 import About from "../views/AboutView.vue";
-import ReleaseNotes from "../views/Extras/Changelog.vue";
-import RatingsandFeedback from "../views/Extras/RatingsandFeedback.vue";
+import Documentation from "../views/Extras/Documentation.vue";
+import Testimonials from "../views/Extras/Testimonials.vue";
 import NotFound from "../views/Extras/404errorpagenotfound.vue";
 import FAQ from "../views/Extras/FAQ.vue";
 import LFI from "../views/projects/LFIDentalClinic.vue";
@@ -69,10 +69,10 @@ const routes = [
 
     // Extras Component Routes
     {
-        path: "/releasenotes",
-        name: "ReleaseNotes",
-        component: ReleaseNotes,
-        meta: { title: "ReleaseNotes" + appname },
+        path: "/documentation",
+        name: "Documentation",
+        component: Documentation,
+        meta: { title: "Documentation" + appname },
     },
 
     {
@@ -83,10 +83,10 @@ const routes = [
     },
 
     {
-        path: "/ratingsandfeedback",
-        name: "Ratings and Feedback",
-        component: RatingsandFeedback,
-        meta: { title: "Ratings and Feedback" + appname },
+        path: "/testimonials",
+        name: "Testimonials",
+        component: Testimonials,
+        meta: { title: "Testimonials" + appname },
     },
 
     {
