@@ -209,20 +209,7 @@
       </div>
 
     </div>
-    <div class="item -m-5 px-4 fixed bottom-1 left-2 p-10 w-96 bg-gray-800">
 
-      <div class="item my-1  w-full">
-        <!-- <a href="https://ko-fi.com/mikegester" target="_blank" class=" w-full flex text-left rounded-full box-border p-3 text-white  bg-emerald-500  hover:bg-gray-100
-    dark:hover:bg-gray-700">
-          <span class="mr-3 text-xl">
-            <Icon icon="line-md:coffee-half-empty-twotone-loop" class="w-7 h-7" />
-          </span>
-          <span class="w-full">Buy me a Coffee!</span>
-        </a>-->
-      </div>
-
-
-    </div>
   </nav>
 </template>
 
