@@ -5,14 +5,15 @@ import { Icon } from "@iconify/vue";
 import PerfectScrollbar from "vue3-perfect-scrollbar";
 import "vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css";
 // import "flowbite";
-import "./assets/tailwind.css";
-import "./assets/animate.css";
-import "./assets/sass/css/hover.css";
-import "./assets/sass/css/scrollbar.css";
+import "./assets/css/tailwind.css";
+import "./assets/css/animate.css";
+import "./assets/css/hover.css";
+import "./assets/css/scrollbar.css";
 
 const app = createApp(App);
 app.use(router, Icon);
 app.use(PerfectScrollbar);
+
 app.mount("#app");
 
 router.beforeEach((to, from, next) => {
@@ -20,17 +21,3 @@ router.beforeEach((to, from, next) => {
     next();
 });
 
-const { verify } = require('hcaptcha');
-
-const secret = 'my hcaptcha secret from hcaptcha.com';
-const token = 'token from widget';
-
-verify(secret, token)
-    .then((data) => {
-        if (data.success === true) {
-            console.log('success!', data);
-        } else {
-            console.log('verification failed');
-        }
-    })
-    .catch(console.error);
