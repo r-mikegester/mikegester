@@ -59,7 +59,7 @@
 
         <transition name="fade">
           <div id="dropdownSmall" v-show="menu"
-            class="block absolute right-5 md:right-96  mt-20 z-50 w-96 border dark:border-gray-700 bg-white dark:bg-gray-800  rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
+            class="block absolute right-7 md:right-96  mt-16 z-50  w-80 md:w-96 border dark:border-gray-700 bg-white dark:bg-gray-800  rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
             <div class="flex py-3 px-4 text-sm text-gray-900 dark:text-gray-200">
               <div class="text-xl">Notifications</div>
             </div>
@@ -70,7 +70,7 @@
                 <div
                   class="bg-emerald-600 alert alert-dismiss fade show  py-4 px-6 text-white md:flex justify-between items-center text-center md:text-left">
                   <div class="mb-4 md:mb-0 flex items-center flex-wrap justify-center md:justify-start">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-6 h-6 mx-auto my-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-6 h-6">
                       <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
                       <path fill="currentColor"
                         d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z" />
@@ -131,13 +131,9 @@
 
             </ul>
             <div class="pt-1">
-              <div id="alert-3" class="flex p-4  bg-emerald-100 rounded-b-3xl dark:bg-gray-800" role="alert">
-                <svg aria-hidden="true" class="flex-shrink-0 w-10 h-10 text-green-500 dark:text-gray-400"
-                  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
-                    clip-rule="evenodd"></path>
-                </svg>
+              <div id="alert-3" class="flex p-4 items-center bg-emerald-100 rounded-b-3xl dark:bg-gray-800"
+                role="alert">
+                <Icon icon="line-md:coffee-half-empty-twotone-loop" class="w-14 h-14 text-gray-400" />
                 <span class="sr-only">Info</span>
                 <div class="ml-3 text-sm font-medium text-green-500 dark:text-gray-400">
                   You can Support me by <span class="dark:text-emerald-500">Buying me a Coffee!</span> thankyouuu in
