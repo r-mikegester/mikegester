@@ -1,18 +1,18 @@
 <template>
     <div class="h-screen col-span-12 mb-20 lg:col-span-4 lg:block">
         <div
-            class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-gray-800 px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
+            class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-gray-800 px-3 rounded-3xl mt-48 md:mt-56 lg:mt-0">
             <!-- profile image -->
             <img src="../../../assets/imgs/profile-pic.jpg"
-                class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
+                class="w-56 md:w-80 h-56 md:h-80 absolute left-[50%] transform -translate-x-[50%]  drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
                 alt="about avatar" />
             <div class="pt-[100px] pb-8">
-                <h1 class="mt-6 mb-1 text-[26px] font-semibold dark:text-white"> Mike Gester </h1>
+                <h1 class="my-2 md:my-2 text-3xl md:text-5xl font-semibold dark:text-white"> Mike Gester </h1>
                 <h3 class="mb-4 text-gray-400 inline-block dark:bg-gray-900 px-5 py-1.5 rounded-lg dark:text-gray-400">
                     Front-End Web Developer</h3>
 
 
-                <div class="bg-white p-7 rounded-2xl mt-7 dark:bg-gray-900">
+                <div class="bg-white p-6 rounded-2xl mx-2 dark:bg-gray-900">
                     <div class="flex border-b border-gray-200 dark:border-gray-700 pb-2.5">
                         <span class="p-2 bg-white rounded-md shadow-md dark:bg-gray-800 text-emerald-400">
                             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
@@ -39,7 +39,7 @@
                                 </path>
                             </svg>
                         </span>
-                        <div class="text-left ml-2.5">
+                        <div class="text-left ml-2.5 overflow-hidden" title="supp.mikegester@gmail.com">
                             <p class="text-xs text-gray-600 dark:text-gray-400"> Email </p>
                             <p class="dark:text-white">supp.mikegester@gmail.com</p>
                         </div>
@@ -55,7 +55,7 @@
                         </span>
                         <div class="text-left ml-2.5">
                             <p class="text-xs text-gray-600 dark:text-gray-400"> Location </p>
-                            <p class="dark:text-white">Quezon City, Philippines</p>
+                            <p class="dark:text-white">Quezon City, PH</p>
                         </div>
                     </div>
                     <div class="flex py-2.5">
@@ -77,12 +77,7 @@
                 <!-- dowanload button -->
                 <button type="button"
                     class="px-6 pt-2.5 mt-5 pb-2 mx-auto bg-emerald-600 text-white font-medium text-lg leading-normal uppercase rounded-xl shadow-md hover:bg-emerald-700 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out flex align-center">
-                    <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
-                            clip-rule="evenodd"></path>
-                    </svg>
+                    <Icon icon="line-md:download-loop" class="w-7 h-7" />
                     Download CV
                 </button>
             </div>
@@ -95,3 +90,12 @@
         </div>
     </div>
 </template>
+<script>
+import { Icon } from "@iconify/vue";
+export default {
+    components: {
+        Icon,
+
+    },
+};
+</script>

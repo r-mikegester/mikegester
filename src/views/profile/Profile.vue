@@ -1,5 +1,5 @@
 <template>
-  <div class="h-auto p-4 mx-6 accordion">
+  <div class="h-auto p-2 mx-3 accordion">
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
@@ -171,23 +171,8 @@
                   <h2 class="my-auto mb-10 text-5xl text-center text-white md:pr-72 px-auto lg:pr-20 lg:hidden">
                     About
                   </h2>
-                  <div>
-                    <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden mx-auto">
-                      <div class="col-span-12 space-y-2.5">
-                        <div class="lg:mx-auto">
-                          <p class="text-gray-400 dark:text-color-910 leading-7"> I'm Freelancer
-                            and UI/UX Designer from Quezon City, Philippines. Specialized in Web Development and
-                            Softwares. I enjoy turning Complex Ideas into Modern, Responsive and
-                            intuitive designs. </p>
-                          <p class="text-gray-400 leading-7 mt-2.5 dark:text-color-910"> My aim is to
-                            bring across your message and identity in the most creative way. I created
-                            web design for many famous brand companies. </p>
-                        </div>
-                        <div></div>
-                      </div>
-                    </div>
 
-                  </div>
+
 
                   <div class="pb-12 px-2 sm:px-5 md:px-10 lg:px-14">
                     <h3 class="text-[35px] dark:text-white font-bold font-robotoSlab pb-5"> What I do! </h3>
@@ -284,42 +269,23 @@
                   <!-- what i do section start -->
 
                   <div class="bg-gray-100 dark:bg-gray-900 max-w-full h-auto py-10 rounded-3xl mx-auto content-center">
-                    <h3 class="text-center dark:text-white text-6xl mb-3 font-semibold  mx-auto">
-                      Clients </h3>
+
                     <!-- slider and slider items -->
-                    <div
-                      class="inline-grid grid-cols-2 gap-4 lg:flex lg:grid-cols-4 lg:gap-5 text-center px-10 mx-10 lg:mx-12 pt-10">
-                      <div title="LFI Dental CLinic">
-                        <svg
-                          class="overflow-hidden w-36 h-36 p-5  text-emerald-600 border-2 border-emerald-600  rounded-3xl"
-                          fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                            clip-rule="evenodd"></path>
-                        </svg>
-                      </div>
-                      <div title="Unknown">
-                        <svg
-                          class="overflow-hidden w-36 h-36 p-5  text-emerald-600 border-2 border-emerald-600  rounded-3xl"
-                          fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                            clip-rule="evenodd"></path>
-                        </svg>
-                      </div>
-                      <div title="Unknown">
-                        <svg
-                          class="overflow-hidden w-36 h-36 p-5  text-emerald-600 border-2 border-emerald-600  rounded-3xl"
-                          fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                            clip-rule="evenodd"></path>
-                        </svg>
-                      </div>
-                      <div title="Unknown">
-                        <svg
-                          class=" overflow-hidden w-36 h-36 p-5  text-emerald-600 border-2 border-emerald-600  rounded-3xl"
-                          fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                            clip-rule="evenodd"></path>
-                        </svg>
+
+                    <div class="mx-6">
+                      <div class="lg:grid grid-cols-12 md:gap-10 pt-4  items-center hidden mx-auto">
+                        <div class="col-span-12 space-y-2.5">
+                          <div class="lg:mx-auto">
+                            <p class="text-gray-400 dark:text-color-910 leading-7"> I'm Freelancer
+                              and UI/UX Designer from Quezon City, Philippines. Specialized in Web Development and
+                              Softwares. I enjoy turning Complex Ideas into Modern, Responsive and
+                              intuitive designs. </p>
+                            <p class="text-gray-400 leading-7 mt-2.5 dark:text-color-910"> My aim is to
+                              bring across your message and identity in the most creative way. I created
+                              web design for many famous brand companies. </p>
+                          </div>
+
+                        </div>
                       </div>
 
                     </div>
