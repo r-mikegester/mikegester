@@ -7,11 +7,7 @@
       <ul
         class="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start dark:text-gray-400 text-emerald-600 ">
 
-        <li><router-link to="/termsandconditions" class="dark:hover:text-emerald-400">Terms and Conditions</router-link>
-        </li>
-        <li><router-link to="/privacypolicy" class="dark:hover:text-emerald-400">Privacy Policy</router-link></li>
-        <li><router-link to="/licensing" class="dark:hover:text-emerald-400">Licensing</router-link></li>
-        <li><router-link to="/contact" class="dark:hover:text-emerald-400">Contact</router-link></li>
+
       </ul>
       <div class="flex flex-col justify-center md:py-6 lg:py-0 lg:pt-0">
         <div class="flex justify-center space-x-4">
@@ -78,7 +74,7 @@
     </div>
     <footer class="w-full box-border p-5 mt-3 text-center">
       <p class="text-sm text-emerald-600 dark:text-gray-400">
-        Mike Gester 2022
+        <!--copyrights-->
       </p>
     </footer>
   </div>
