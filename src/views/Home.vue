@@ -1,5 +1,5 @@
 <template>
-  <div class="dashboard p-4 mx-6">
+  <div class=" p-4 mx-3">
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
@@ -24,22 +24,23 @@
 
   </div>
 
-  <div class="container px-6 mx-auto">
+  <div class="container px-3 mx-auto">
 
     <!-- Section: Design Block -->
-    <section class="mb-20 ">
+    <section class="mb-10 ">
 
-      <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-3xl mx-6 md:shadow-md"
+      <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-3xl mx-3 md:shadow-md"
         style="background-position: 50%; background-image: url('../assets/imgs/preview/lfidentalclinicpreview.jpg'); height: 500px;">
         <img src="../assets/imgs/preview/lfidentalclinicpreview.jpg" class="rounded-3xl" />
       </div>
 
-      <div class="container mx-auto px-6 md:px-12 xl:px-32 -mt-96 pt-36 md:-mt-0 md:pt-0">
+      <div class="container mx-auto px-3 md:px-12 xl:px-32 -mt-96 pt-36 md:-mt-0 md:pt-0">
         <div class="text-center text-gray-800">
           <div class="block rounded-3xl shadow-lg px-6 py-12 md:py-16 md:px-12 bg-emerald-400/40"
             style="margin-top: -170px; backdrop-filter: blur(30px);">
-            <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Latest Project I've Built:
-              <br /><span class="text-emerald-400 text-3xl md:text-7xl xl:text-sky-700">Clinic Management System</span>
+            <h1 class="text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight">Latest Project I've Built:
+              <br /><span class="text-emerald-700 drop-shadow-md text-xl md:text-7xl xl:text-sky-700">Clinic Management
+                System</span>
             </h1>
 
 
@@ -48,24 +49,24 @@
         </div>
       </div>
     </section>
-    <div class="container my-10 px-6 mx-auto">
+    <div class="container my-5 px-3 mx-auto">
 
       <!-- Section: Design Block -->
-      <section class="mb-20 text-gray-800 bg-emerald-400/40 rounded-3xl shadow-md">
+      <section class="mb-10 text-gray-800 bg-emerald-400/40 rounded-3xl shadow-md">
 
 
         <div class="px-6 py-12 md:px-12 text-center lg:text-left">
           <div class="container mx-auto">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
-              <div class="mt-12 lg:mt-0">
-                <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-5 text-white">
+              <div class=" lg:mt-0">
+                <h1 class="text-3xl md:text-6xl xl:text-7xl font-bold tracking-tight md:mb-5 text-white">
                   Famous Logo's <br /><span class="text-emerald-400">using html and css</span>
                 </h1>
-                <p class=" text-lg text-white">
+                <p class=" text-sm px-6 md:text-lg text-white">
                   some of the "FLUHACSS" Series you might not want to miss.
                 </p>
               </div>
-              <div class="mb-12 lg:mb-0">
+              <div class=" lg:mb-0">
                 <div
                   class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-3xl shadow-lg"
                   style="padding-top: 56.25%">
@@ -75,7 +76,7 @@
                 </div>
               </div>
 
-              <div class="mb-12 lg:mb-0">
+              <div class=" lg:mb-0">
                 <div
                   class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-3xl shadow-lg"
                   style="padding-top: 56.25%">
@@ -85,7 +86,7 @@
                 </div>
               </div>
 
-              <div class="mb-12 lg:mb-0">
+              <div class=" lg:mb-0">
                 <div
                   class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-3xl shadow-lg"
                   style="padding-top: 56.25%">
@@ -100,177 +101,22 @@
       </section>
       <!-- Section: Design Block -->
       <div class="relative overflow-hidden rounded-3xl bg-white dark:bg-gray-800 shadow-md">
-        <section class="overflow-hidden py-10 px-20 mx-auto lg:py-10">
+        <section class="overflow-hidden py-10 px-6 md:px-20 mx-auto lg:py-10">
           <div class="container mx-auto">
             <div class="-mx-4 flex flex-wrap items-center justify-between">
               <div class="w-full px-4 lg:w-6/12">
-                <div class="-mx-3 flex items-center sm:-mx-4">
-                  <div class="w-full px-3 sm:px-4 xl:w-1/2">
-                    <div class="py-3 sm:py-4">
-                      <img src="../assets/imgs/supp/jofeth.jpg" alt="" class="w-full rounded-2xl" />
+                <div class=" flex items-center">
+                  <div class="w-full px-3 md:px-4 xl:w-1/2">
+                    <div class="py-3 md:py-4">
+                      <img src="../assets/imgs/supp/jofeth.jpg" alt="" class="w-full rounded-3xl" />
                     </div>
                     <div class="py-3 sm:py-4">
-                      <img src="../assets/imgs/supp/denver.png" alt="" class="w-full rounded-2xl" />
+                      <img src="../assets/imgs/supp/denver.png" alt="" class="w-full rounded-3xl" />
                     </div>
                   </div>
                   <div class="w-full px-3 sm:px-4 xl:w-1/2">
                     <div class="relative z-10 my-4">
-                      <img src="../assets/imgs/supp/dyo.png" alt="" class="w-full rounded-2xl" />
-                      <span class="absolute -right-7 -bottom-7 z-[-1]">
-                        <svg width="134" height="106" viewBox="0 0 134 106" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)"
-                            fill="#34d399" />
-                          <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)"
-                            fill="#34d399" />
-                          <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="#34d399" />
-                          <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)"
-                            fill="#34d399" />
-                          <circle cx="60.3334" cy="104" r="1.66667" transform="rotate(-90 60.3334 104)"
-                            fill="#34d399" />
-                          <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)"
-                            fill="#34d399" />
-                          <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)"
-                            fill="#34d399" />
-                          <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)"
-                            fill="#34d399" />
-                          <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="#34d399" />
-                          <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="#34d399" />
-                          <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)"
-                            fill="#34d399" />
-                          <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)"
-                            fill="#34d399" />
-                          <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="#34d399" />
-                          <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)"
-                            fill="#34d399" />
-                          <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)"
-                            fill="#34d399" />
-                          <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)"
-                            fill="#34d399" />
-                          <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)"
-                            fill="#34d399" />
-                          <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)"
-                            fill="#34d399" />
-                          <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)"
-                            fill="#34d399" />
-                          <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)"
-                            fill="#34d399" />
-                          <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)"
-                            fill="#34d399" />
-                          <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)"
-                            fill="#34d399" />
-                          <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)"
-                            fill="#34d399" />
-                          <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)"
-                            fill="#34d399" />
-                          <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="#34d399" />
-                          <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="#34d399" />
-                          <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)"
-                            fill="#34d399" />
-                          <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)"
-                            fill="#34d399" />
-                          <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)"
-                            fill="#34d399" />
-                          <circle cx="60.3333" cy="30.9998" r="1.66667" transform="rotate(-90 60.3333 30.9998)"
-                            fill="#34d399" />
-                          <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)"
-                            fill="#34d399" />
-                          <circle cx="88.6667" cy="30.9998" r="1.66667" transform="rotate(-90 88.6667 30.9998)"
-                            fill="#34d399" />
-                          <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)"
-                            fill="#34d399" />
-                          <circle cx="117.667" cy="30.9998" r="1.66667" transform="rotate(-90 117.667 30.9998)"
-                            fill="#34d399" />
-                          <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)"
-                            fill="#34d399" />
-                          <circle cx="74.6667" cy="30.9998" r="1.66667" transform="rotate(-90 74.6667 30.9998)"
-                            fill="#34d399" />
-                          <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)"
-                            fill="#34d399" />
-                          <circle cx="103" cy="30.9998" r="1.66667" transform="rotate(-90 103 30.9998)"
-                            fill="#34d399" />
-                          <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)"
-                            fill="#34d399" />
-                          <circle cx="132" cy="30.9998" r="1.66667" transform="rotate(-90 132 30.9998)"
-                            fill="#34d399" />
-                          <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="1.66667" cy="16.3333" r="1.66667" transform="rotate(-90 1.66667 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="16.3333" cy="16.3333" r="1.66667" transform="rotate(-90 16.3333 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="#34d399" />
-                          <circle cx="31" cy="16.3333" r="1.66667" transform="rotate(-90 31 16.3333)" fill="#34d399" />
-                          <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="45.6667" cy="16.3333" r="1.66667" transform="rotate(-90 45.6667 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="60.3333" cy="16.3333" r="1.66667" transform="rotate(-90 60.3333 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="88.6667" cy="16.3333" r="1.66667" transform="rotate(-90 88.6667 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="117.667" cy="16.3333" r="1.66667" transform="rotate(-90 117.667 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="74.6667" cy="16.3333" r="1.66667" transform="rotate(-90 74.6667 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="103" cy="16.3333" r="1.66667" transform="rotate(-90 103 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)"
-                            fill="#34d399" />
-                          <circle cx="132" cy="16.3333" r="1.66667" transform="rotate(-90 132 16.3333)"
-                            fill="#34d399" />
-                          <circle cx="1.66667" cy="45.3333" r="1.66667" transform="rotate(-90 1.66667 45.3333)"
-                            fill="#34d399" />
-                          <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)"
-                            fill="#34d399" />
-                          <circle cx="16.3333" cy="45.3333" r="1.66667" transform="rotate(-90 16.3333 45.3333)"
-                            fill="#34d399" />
-                          <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)"
-                            fill="#34d399" />
-                          <circle cx="31" cy="45.3333" r="1.66667" transform="rotate(-90 31 45.3333)" fill="#34d399" />
-                          <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="#34d399" />
-                          <circle cx="45.6667" cy="45.3333" r="1.66667" transform="rotate(-90 45.6667 45.3333)"
-                            fill="#34d399" />
-                          <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)"
-                            fill="#34d399" />
-                          <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)"
-                            fill="#34d399" />
-                          <circle cx="60.3333" cy="1.66683" r="1.66667" transform="rotate(-90 60.3333 1.66683)"
-                            fill="#34d399" />
-                          <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)"
-                            fill="#34d399" />
-                          <circle cx="88.6667" cy="1.66683" r="1.66667" transform="rotate(-90 88.6667 1.66683)"
-                            fill="#34d399" />
-                          <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)"
-                            fill="#34d399" />
-                          <circle cx="117.667" cy="1.66683" r="1.66667" transform="rotate(-90 117.667 1.66683)"
-                            fill="#34d399" />
-                          <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)"
-                            fill="#34d399" />
-                          <circle cx="74.6667" cy="1.66683" r="1.66667" transform="rotate(-90 74.6667 1.66683)"
-                            fill="#34d399" />
-                          <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)"
-                            fill="#34d399" />
-                          <circle cx="103" cy="1.66683" r="1.66667" transform="rotate(-90 103 1.66683)"
-                            fill="#34d399" />
-                          <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)"
-                            fill="#34d399" />
-                          <circle cx="132" cy="1.66683" r="1.66667" transform="rotate(-90 132 1.66683)"
-                            fill="#34d399" />
-                        </svg>
-                      </span>
+                      <img src="../assets/imgs/supp/dyo.png" alt="" class="w-full rounded-3xl" />
                     </div>
                   </div>
                 </div>
