@@ -1,8 +1,8 @@
 .item .exact-active {
-  background: #059669;
+  background: #10b981;
   color: #fff;
 }
 .item .exact-active:hover {
-  background: #166534 !important;
+  background: #059669 !important;
   color: #fff;
 }
