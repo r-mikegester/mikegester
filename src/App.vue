@@ -1,6 +1,6 @@
 <template>
     <!-- App -->
-    <div class="flex bg-packed font-lexend dark:bg-gradient-to-b from-gray-500 to-gray-900">
+    <div class="flex bg-packed font-lexend dark:bg-gradient-to-b overflow-auto from-gray-500 to-gray-900">
         <div id="sidebar-scroll"
             class="fixed z-50 lg:mt-0 hidden h-screen overflow-auto bg-white border-r-2 flex-sidebar lg:flex-auto w-sidebar lg:block dark:bg-gray-800 dark:border-gray-700 lg:z-0 lg:relative">
             <Sidebar />
@@ -37,7 +37,9 @@ export default {
         Sidebar,
     },
     mounted() {
-        Scrollbar.init(document.querySelector("#body-scroll"));
+        Scrollbar.init(document.querySelector("#body-scroll"), {
+            thumbMinSize: 0,
+        });
 
         setTimeout(() => {
             var alert_dis = document.querySelectorAll(".alert-dismiss");
