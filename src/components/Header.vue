@@ -15,31 +15,77 @@
 
       <div class="lg:mr-96 flex">
         <button id="theme-toggle" type="button" title="Change Theme"
-          class="text-gray-500   hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-gray-400 rounded-md p-5">
-          <svg id="theme-toggle-dark-icon" class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg">
-            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+          class="text-gray-500   hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-gray-400 rounded-md px-3">
+          <svg id="theme-toggle-dark-icon" class="hidden w-8 h-8 " xmlns="http://www.w3.org/2000/svg" width="1em"
+            height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <g fill="currentColor" fill-opacity="0">
+              <path d="m15.22 6.03l2.53-1.94L14.56 4L13.5 1l-1.06 3l-3.19.09l2.53 1.94l-.91 3.06l2.63-1.81l2.63 1.81z">
+                <animate id="lineMdMoonRisingFilledLoop0" fill="freeze" attributeName="fill-opacity"
+                  begin="0.7s;lineMdMoonRisingFilledLoop0.begin+6s" dur="0.4s" values="0;1" />
+                <animate fill="freeze" attributeName="fill-opacity" begin="lineMdMoonRisingFilledLoop0.begin+2.2s"
+                  dur="0.4s" values="1;0" />
+              </path>
+              <path d="M13.61 5.25L15.25 4l-2.06-.05L12.5 2l-.69 1.95L9.75 4l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
+                <animate fill="freeze" attributeName="fill-opacity" begin="lineMdMoonRisingFilledLoop0.begin+3s"
+                  dur="0.4s" values="0;1" />
+                <animate fill="freeze" attributeName="fill-opacity" begin="lineMdMoonRisingFilledLoop0.begin+5.2s"
+                  dur="0.4s" values="1;0" />
+              </path>
+              <path
+                d="M19.61 12.25L21.25 11l-2.06-.05L18.5 9l-.69 1.95l-2.06.05l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
+                <animate fill="freeze" attributeName="fill-opacity" begin="lineMdMoonRisingFilledLoop0.begin+0.4s"
+                  dur="0.4s" values="0;1" />
+                <animate fill="freeze" attributeName="fill-opacity" begin="lineMdMoonRisingFilledLoop0.begin+2.8s"
+                  dur="0.4s" values="1;0" />
+              </path>
+              <path
+                d="m20.828 9.731l1.876-1.439l-2.366-.067L19.552 6l-.786 2.225l-2.366.067l1.876 1.439L17.601 12l1.951-1.342L21.503 12z">
+                <animate fill="freeze" attributeName="fill-opacity" begin="lineMdMoonRisingFilledLoop0.begin+3.4s"
+                  dur="0.4s" values="0;1" />
+                <animate fill="freeze" attributeName="fill-opacity" begin="lineMdMoonRisingFilledLoop0.begin+5.6s"
+                  dur="0.4s" values="1;0" />
+              </path>
+            </g>
+            <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2"
+              d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z"
+              transform="translate(0 22)">
+              <animateMotion fill="freeze" calcMode="linear" dur="0.6s" path="M0 0v-22" />
+            </path>
           </svg>
-          <svg id="theme-toggle-light-icon" class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-              fill-rule="evenodd" clip-rule="evenodd"></path>
+          <svg id="theme-toggle-light-icon" class="hidden w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="1em"
+            height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <circle cx="12" cy="32" r="6" fill="currentColor">
+              <animate fill="freeze" attributeName="cy" dur="0.6s" values="32;12" />
+            </circle>
+            <g fill="none" stroke="currentColor" stroke-dasharray="2" stroke-dashoffset="2" stroke-linecap="round"
+              stroke-width="2">
+              <path d="M0 0">
+                <animate fill="freeze" attributeName="d" begin="0.7s" dur="0.2s"
+                  values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1" />
+                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" values="2;0" />
+              </path>
+              <path d="M0 0">
+                <animate fill="freeze" attributeName="d" begin="0.9s" dur="0.2s"
+                  values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" />
+                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.9s" dur="0.2s" values="2;0" />
+              </path>
+              <animateTransform attributeName="transform" dur="30s" repeatCount="indefinite" type="rotate"
+                values="0 12 12;360 12 12" />
+            </g>
           </svg>
         </button>
         <button @click="menuToggle" type="button" @blur="menuToggleBlur" title="Notifications">
           <div
-            class="inline-flex absolute mt-4 justify-center items-center w-4 h-4 text-xs font-bold text-white bg-red-500 rounded-full border-2 border-white dark:border-gray-900 ">
+            class="inline-flex absolute mt-4 justify-center items-center w-4 h-4 text-xs font-bold text-white bg-red-500 animate-ping opacity-75  rounded-full border-2 border-white dark:border-red-900 ">
+          </div>
+          <div
+            class="inline-flex absolute mt-4 justify-center items-center w-4 h-4 text-xs font-bold text-white bg-red-500   rounded-full border-2 border-white dark:border-red-900 ">
           </div>
           <div class="user-avatar flex hover:bg-gray-100 group dark:hover:bg-gray-700  p-5 cursor-pointer rounded-md">
 
             <span class="text-md text-gray-300">
-              <svg class="w-6 h-6 group-hover:text-emerald-500" fill="currentColor" viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z">
-                </path>
-              </svg>
+              <Icon icon="entypo:bell" class="w-7 h-7 group-hover:text-emerald-500" />
             </span>
 
           </div>
@@ -66,83 +112,84 @@
             <ul class=" text-sm text-gray-700 dark:text-gray-200 " aria-labelledby="dropdownSmallButton">
 
 
-              <section class="mb-0 .notif-toggle">
-                <div
-                  class="bg-emerald-600 alert alert-dismiss fade show  py-4 px-6 text-white md:flex justify-between items-center text-center md:text-left">
-                  <div class="mb-4 md:mb-0 flex items-center flex-wrap justify-center md:justify-start">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-6 h-6">
-                      <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
-                      <path fill="currentColor"
-                        d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z" />
-                    </svg>
+
+              <div class="pt-1">
+                <div id="alert-3"
+                  class="flex p-4 items-center alert-dismiss fade show bg-emerald-200  dark:bg-emerald-600"
+                  role="alert">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-6 h-6">
+                    <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                    <path fill="currentColor"
+                      d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z" />
+                  </svg>
+                  <span class="sr-only">Info</span>
+                  <div class="mx-3 text-sm font-medium text-gray-800 dark:text-white">
+
                     <strong class="mx-1">BETA</strong><span class="mx-auto"> This Portfolio is still on
                       development!</span>
                   </div>
-                  <div class="flex items-center justify-center">
+                  <div class="my-1">
+                    <button type="button" title="Hide" @click="NotifToggle"
+                      class=" w-full flex text-center rounded-xl box-border p-3 text-white  bg-emerald-500  hover:bg-red-300 mx-auto dark:hover:bg-red-500">
+                      <span class=" text-xl">
+                        <Icon icon="octicon:eye-closed-16" class="w-7 h-7" />
+                      </span>
 
-                    <button class="lg: block float-right  text-white dark:hover:text-emerald-500" @click="NotifToggle">
-                      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="25px" height="25px"
-                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
-                        <path fill="currentColor"
-                          d="M7.219 5.781L5.78 7.22L14.563 16L5.78 24.781l1.44 1.439L16 17.437l8.781 8.782l1.438-1.438L17.437 16l8.782-8.781L24.78 5.78L16 14.563z" />
-                      </svg>
                     </button>
-
                   </div>
                 </div>
-              </section>
-              <section class="mb-0 ">
-                <div
-                  class="bg-gray-900 alert alert-dismiss fade show px-6 text-white md:flex justify-between items-center text-center md:text-left">
-                  <div class="mb-4 md:mb-0 flex items-center flex-wrap justify-center md:justify-start">
-                    <div id="dropdown-cta" class="p-2  bg-emerald-100 dark:bg-gray-900" role="alert">
-                      <div class="flex items-center mb-3">
+              </div>
+              <a href="#">
+                <div class="pt-1">
+                  <div id="alert-3"
+                    class="flex p-4 items-center alert-dismiss fade show bg-emerald-100 dark:bg-gray-900" role="alert">
 
-
-                      </div>
-                      <p class="mb-3 text-sm text-emerald-500 dark:text-gray-100">
-                        The Portfolio you are viewing is currently under <span
-                          class="dark:text-emerald-500">Development</span> by
-                        Mike
-                        Gester. If you want to
-                        have
-                        you own website design like this kindly message me by clicking in the link below.
-                      </p>
-                      <a class="text-sm text-blue-900 underline hover:text-red-500 dark:text-blue-400 dark:hover:text-blue-300"
-                        href="#">Click Here!</a>
+                    <span class="sr-only">Info</span>
+                    <div class="mx-3 text-sm font-medium text-green-500 dark:text-gray-400">
+                      The Portfolio you are viewing is currently under <span
+                        class="dark:text-emerald-500">Development</span> by
+                      Mike
+                      Gester. If you want to
+                      have
+                      you own website design like this kindly message me by clicking in this notification.
                     </div>
+                    <div class="my-1">
+                      <button type="button" @click="NotifToggle" class=" w-full flex text-center rounded-xl box-border p-3 text-white  bg-emerald-500  hover:bg-red-300 mx-auto
+    dark:hover:bg-red-500">
+                        <span class=" text-xl">
+                          <Icon icon="octicon:eye-closed-16" class="w-7 h-7" />
+                        </span>
 
-                  </div>
-                  <div class="flex items-center justify-center">
+                      </button>
 
-                    <button class="lg: block mx-auto md:float-right  text-white dark:hover:text-emerald-500"
-                      @click="NotifToggle" type="button">
-                      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="25px" height="25px"
-                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
-                        <path fill="currentColor"
-                          d="M7.219 5.781L5.78 7.22L14.563 16L5.78 24.781l1.44 1.439L16 17.437l8.781 8.782l1.438-1.438L17.437 16l8.782-8.781L24.78 5.78L16 14.563z" />
-                      </svg><span class="text-center">Dismiss</span>
-                    </button>
-
-
+                    </div>
                   </div>
                 </div>
-              </section>
 
+              </a>
             </ul>
+
             <div class="pt-1">
               <div id="alert-3" class="flex p-4 items-center bg-emerald-100 rounded-b-3xl dark:bg-gray-800"
                 role="alert">
-                <Icon icon="line-md:coffee-half-empty-twotone-loop" class="w-14 h-14 text-gray-400" />
-                <span class="sr-only">Info</span>
-                <div class="ml-3 text-sm font-medium text-green-500 dark:text-gray-400">
-                  You can Support me by <span class="dark:text-emerald-500">Buying me a Coffee!</span> thankyouuu in
-                  advanced,
-                  well appreciated!
-                </div>
 
+                <span class="sr-only">Info</span>
+                <div class="mx-3 text-sm font-medium text-green-500 dark:text-gray-400">
+                  You can Support me by <span class="dark:text-emerald-500">Buying me a Coffee!</span> thankyouuu in
+                  advanced!
+                </div>
+                <div class="my-1">
+                  <a href="https://ko-fi.com/mikegester" target="_blank"
+                    class=" w-full flex text-center rounded-xl box-border p-3 text-white  bg-emerald-500  hover:bg-gray-100 mx-auto dark:hover:bg-gray-700">
+                    <span class=" text-xl">
+                      <Icon icon="line-md:coffee-half-empty-twotone-loop" class="w-7 h-7 " />
+                    </span>
+
+                  </a>
+                </div>
               </div>
             </div>
+
           </div>
         </transition>
       </div>
