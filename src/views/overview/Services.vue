@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion h-auto p-4 mx-6">
+  <div class="accordion h-auto p-4 mx-3">
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
@@ -30,15 +30,23 @@
     </nav>
 
     <!-- end nav -->
+    <div class="mt-5 w-full">
+      <h1 class="text-2xl text-gray-900 font-medium dark:text-gray-200">
+        Services
+      </h1>
+      <p class="mt-1 text-sm font-normal text-gray-400">
+        services I personally offer...
+      </p>
+    </div>
 
 
-    <div class="container my-6 mx-auto">
+    <div class="container mt-10 mx-auto">
 
       <!-- Section: Design Block -->
       <section class="dark:bg-gray-800 dark:text-gray-100  rounded-3xl shadow-md">
-        <div class="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+        <div class="container max-w-xl p-4 py-3 mx-auto space-y-10 lg:px-8 lg:max-w-7xl">
           <div>
-            <h2 class="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50">Services
+            <h2 class="text-3xl font-bold mt-10 tracking-tight text-center sm:text-5xl dark:text-gray-50">Services
             </h2>
 
           </div>
@@ -63,23 +71,19 @@
                 <h3 class="text-4xl font-bold mb-3">Customized Website Design</h3>
                 <div
                   class="mb-3 text-emerald-700 font-medium text-xl flex items-center justify-center md:justify-start">
-                  <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z"
-                      clip-rule="evenodd"></path>
-                  </svg> Modern Website Design
-                </div>
+                  <Icon icon="gg:website" class="w-10 h-10" /><span class="ml-3"> Modern Website Design</span>
 
-                <p class="text-gray-500">
-                  A Personalized Website for you or your company, work, friend, projects, thesis and etc. gives your
-                  business or freelancing makes more personal.
-                </p>
+                  <p class="text-gray-500 mx-6">
+                    A Personalized Website for you or your company, work, friend, projects, thesis and etc. gives your
+                    business or freelancing makes more personal.
+                  </p>
+                </div>
               </div>
             </div>
 
             <div class="grid md:grid-cols-2 gap-x-6 xl:gap-x-12 items-center mb-12">
-              <div class="mb-6 md:mb-0 md:order-2">
-                <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-3xl"
+              <div class=" md:mb-0 md:order-2">
+                <div class="relative overflow-hidden bg-no-repeat bg-cover m-6 ripple shadow-lg rounded-3xl"
                   data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <img src="../../assets/imgs/pasabike.jpg" class="w-full" alt="Louvre" />
                   <a href="#!">
@@ -91,17 +95,15 @@
               </div>
 
               <div class="mb-6 md:mb-0 md:order-1">
-                <h3 class="text-4xl font-bold mb-3">Pasabike</h3>
+                <h3 class="text-4xl font-bold mb-3">PASABIKE</h3>
                 <div
                   class="mb-3 text-emerald-600 font-medium text-xl flex items-center justify-center md:justify-start">
-                  <svg class="w-10 h-10 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path fill="currentColor"
-                      d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z" />
-                  </svg>Bike Delivery Service
+                  <Icon icon="mdi:bike-fast" class="w-7 h-7" /> <span class="ml-3">Bike Delivery Service</span>
                 </div>
 
-                <p class="text-gray-500">
-                  A delivery service that is right, on the go, and supports a lot of freelancing bodies and students who
+                <p class="text-gray-500 mx-6 md:mx-0">
+                  A delivery service that is right, on the go, and supports a lot of freelancing bodies and students
+                  who
                   do side hustle like pasabike delivery. Pasabuy, pabili, pasuyo, pasabike!
                 </p>
               </div>

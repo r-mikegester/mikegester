@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion h-auto p-4 mx-6">
+  <div class="accordion h-auto p-4 mx-3">
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
@@ -30,12 +30,20 @@
     </nav>
 
     <!-- end nav -->
+    <div class="mt-5 w-full">
+      <h1 class="text-2xl text-gray-900 font-medium dark:text-gray-200">
+        Contact
+      </h1>
+      <p class="mt-1 text-sm font-normal text-gray-400">
+        where you can message me directly from the page
+      </p>
+    </div>
 
 
-    <div class="container my-24 p-6 mx-auto rounded-3xl shadow-md dark:bg-gray-800">
+    <div class="container mt-10 md:my-10 p-3 mx-auto rounded-3xl shadow-md dark:bg-gray-800">
 
       <!-- Section: Design Block -->
-      <section class="mb-32 text-emerald-400">
+      <section class="mb-10 md:mb-32 text-emerald-400">
         <div class="flex justify-center">
           <div class="text-center lg:max-w-3xl md:max-w-xl">
             <h2 class="text-5xl font-bold mb-12 p-6 pb-0">Get in Touch </h2>
@@ -47,17 +55,17 @@
             <form>
               <div class="form-group mb-6">
                 <input type="text"
-                  class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-emerald-600 focus:outline-none"
+                  class="form-control block w-full p-4 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-emerald-600 focus:outline-none dark:bg-transparent dark:text-emerald-400 dark:border-emerald-400 rounded-2xl "
                   id="exampleInput7" placeholder="Name">
               </div>
               <div class="form-group mb-6">
                 <input type="email"
-                  class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-30 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-emerald-600 focus:outline-none"
+                  class="form-control block w-full p-4 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-30  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-emerald-600 focus:outline-none dark:bg-transparent dark:text-emerald-400 dark:border-emerald-400 rounded-2xl "
                   id="exampleInput8" placeholder="Email Address">
               </div>
               <div class="form-group mb-6">
                 <textarea
-                  class="form-control block w-full px-3 py-1.5 text-base font-normal  text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0  focus:text-gray-700 focus:bg-white focus:border-emerald-600 focus:outline-none"
+                  class="form-control block w-full p-4 text-base font-normal  text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300  transition ease-in-out m-0  focus:text-gray-700 focus:bg-white focus:border-emerald-600 focus:outline-none dark:bg-transparent dark:text-emerald-400 dark:border-emerald-400 rounded-2xl"
                   id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
               </div>
               <div class="form-group form-check text-center mb-6">
@@ -72,7 +80,7 @@
                 class="w-full px-6 py-2.5 bg-emerald-400 text-emerald-900 text-center text-xl leading-tight uppercase rounded shadow-md hover:bg-emerald-700 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out">Send</a>
             </form>
           </div>
-          <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+          <div class="grow-0 shrink-0 mx-auto basis-auto w-full lg:w-7/12">
             <div class="flex flex-wrap">
               <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                 <div class="flex items-start">

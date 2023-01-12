@@ -1,7 +1,7 @@
 <template>
   <!-- Search component Accordion with name of type,  press Ctrl + F -->
 
-  <div class="accordion h-auto p-4 mx-6">
+  <div class="accordion h-auto p-4 mx-3">
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
@@ -25,8 +25,8 @@
                 clip-rule="evenodd"></path>
             </svg>
             <router-link to="/404errorpagenotfound"
-              class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">404
-              Error Page not Found</router-link>
+              class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">Page
+              not Found</router-link>
           </div>
         </li>
       </ol>
@@ -34,19 +34,19 @@
     <!-- end nav -->
     <div class="mt-5 w-full">
       <h1 class="text-2xl text-gray-900 font-medium dark:text-gray-200">
-        404 ERROR PAGE NOT FOUND
+        PAGE NOT FOUND
       </h1>
       <p class="mt-1 text-sm font-normal text-gray-400">
-        its not you, its us.
+        Error Code: 404
       </p>
     </div>
 
-    <div class="grid lg:grid-cols-1 grid-col-1 gap-4 mt-5">
+    <div class="grid lg:grid-cols-1 grid-col-1 gap-4 mt-10">
       <!-- default alert  -->
 
-      <div class="card row-span-1 grid grid-cols-1 gap-5 bg-white dark:bg-gray-800 w-full rounded-xl p-5 shadow">
+      <div class="card row-span-1 grid grid-cols-1 gap-5 bg-white dark:bg-gray-800 w-full rounded-3xl p-5 shadow">
 
-        <section class="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100 rounded-xl ">
+        <section class="flex items-center h-full p-10 dark:bg-gray-900 dark:text-gray-100 rounded-3xl ">
           <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
             <div class="max-w-md text-center">
               <h2 class="mb-8 font-extrabold text-9xl dark:text-gray-600">
@@ -56,7 +56,7 @@
               <p class="mt-4 mb-8 dark:text-gray-400">Sorry for Inconvenience. But dont worry, you can find plenty of
                 other things on my website</p>
               <router-link rel="noopener noreferrer" to="/"
-                class="px-8 py-3 font-semibold rounded dark:bg-emerald-400 dark:text-gray-900">Back to
+                class="px-8 py-3 font-semibold rounded-xl dark:bg-emerald-400 dark:text-gray-900">Back to
                 Home</router-link>
             </div>
           </div>

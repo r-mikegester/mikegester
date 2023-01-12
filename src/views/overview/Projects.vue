@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion h-auto p-4 mx-6">
+  <div class="accordion h-auto p-4 mx-3">
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
@@ -30,9 +30,17 @@
     </nav>
 
     <!-- end nav -->
+    <div class="mt-5 w-full">
+      <h1 class="text-2xl text-gray-900 font-medium dark:text-gray-200">
+        Projects
+      </h1>
+      <p class="mt-1 text-sm font-normal text-gray-400">
+        List of all the Projects
+      </p>
+    </div>
 
 
-    <div class="container px-6 mx-auto">
+    <div class="container mx-auto">
 
       <!-- Section: Design Block -->
       <section class="my-10 text-gray-800 text-center md:text-left dark:text-gray-300 rounded-3xl">
@@ -61,12 +69,12 @@
                 </ul>
                 </p>
                 <button type="button"
-                  class="inline-block px-7 py-3 bg-sky-700 text-white font-medium text-sm leading-snug uppercase rounded-xl shadow-md hover:bg-emerald-500 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class=" flex md:inline-block md:mx-3 mx-auto px-7 py-3 my-2 bg-sky-700 text-white font-medium text-sm leading-snug uppercase rounded-xl shadow-md hover:bg-emerald-500 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out"
                   data-mdb-ripple="true" data-mdb-ripple-color="light"><a href="https://lfidentalclinic.web.app"
                     target="_blank">Live
                     Demo</a></button>
                 <button type="button"
-                  class="inline-block px-7 py-3 mx-3 bg-sky-700 text-white font-medium text-sm leading-snug uppercase rounded-xl shadow-md hover:bg-emerald-500 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class="flex md:inline-block md:mx-3 mx-auto px-7 py-3 my-2 bg-sky-700 text-white font-medium text-sm leading-snug uppercase rounded-xl shadow-md hover:bg-emerald-500 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out"
                   data-mdb-ripple="true" data-mdb-ripple-color="light"><router-link to="/lfidentalclinic">Learn
                     More</router-link></button>
               </div>
@@ -100,10 +108,10 @@
                 </ul>
                 </p>
                 <a href="#" target="_blank" type="button"
-                  class="inline-block px-7 py-3 bg-sky-700 text-white font-medium text-sm leading-snug uppercase rounded-xl shadow-md hover:bg-emerald-500 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class="flex md:inline-block md:mx-3 mx-auto px-7 py-3 my-2 bg-sky-700 text-white font-medium text-sm leading-snug uppercase rounded-xl shadow-md hover:bg-emerald-500 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out"
                   data-mdb-ripple="true" data-mdb-ripple-color="light">Live Demo</a>
                 <button type="button"
-                  class="inline-block px-7 py-3 mx-3 bg-sky-700 text-white font-medium text-sm leading-snug uppercase rounded-xl shadow-md hover:bg-emerald-500 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class="flex md:inline-block md:mx-3 mx-auto px-7 py-3 my-2  bg-sky-700 text-white font-medium text-sm leading-snug uppercase rounded-xl shadow-md hover:bg-emerald-500 hover:shadow-lg focus:bg-emerald-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-800 active:shadow-lg transition duration-150 ease-in-out"
                   data-mdb-ripple="true" data-mdb-ripple-color="light">Learn more</button>
               </div>
             </div>

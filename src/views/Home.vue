@@ -17,29 +17,35 @@
     </nav>
     <!-- end nav -->
     <div class="mt-5 w-full">
-
+      <h1 class="text-2xl text-gray-900 font-medium dark:text-gray-200">
+        Homepage
+      </h1>
+      <p class="mt-1 text-sm font-normal text-gray-400">
+        showcasing latest projects, news, blog, feature etc.
+      </p>
     </div>
 
 
 
   </div>
 
-  <div class="container px-3 mx-auto">
+  <div class="container px-3 mt-10 mx-auto">
 
     <!-- Section: Design Block -->
     <section class="mb-10 ">
 
-      <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-3xl mx-3 md:shadow-md"
-        style="background-position: 50%; background-image: url('../assets/imgs/preview/lfidentalclinicpreview.jpg'); height: 500px;">
-        <img src="../assets/imgs/preview/lfidentalclinicpreview.jpg" class="rounded-3xl" />
-      </div>
-
-      <div class="container mx-auto px-3 md:px-12 xl:px-32 -mt-96 pt-36 md:-mt-0 md:pt-0">
+      <router-link to="/projects">
+        <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-3xl mx-3 md:shadow-md"
+          style="background-position: 50%; background-image: url('../assets/imgs/preview/lfidentalclinicpreview.jpg'); height: 500px;">
+          <img src="../assets/imgs/preview/lfidentalclinicpreview.jpg" class="rounded-3xl" />
+        </div>
+      </router-link>
+      <div class="container mx-auto px-3 md:px-12 xl:px-32 -mt-64 pt-16 md:-mt-0 md:pt-0">
         <div class="text-center text-gray-800">
-          <div class="block rounded-3xl shadow-lg px-6 py-12 md:py-16 md:px-12 bg-emerald-400/40"
+          <div class="block rounded-3xl shadow-lg px-6 py-6 md:py-16 md:px-12 bg-teal-400/40"
             style="margin-top: -170px; backdrop-filter: blur(30px);">
             <h1 class="text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight">Latest Project I've Built:
-              <br /><span class="text-emerald-700 drop-shadow-md text-xl md:text-7xl xl:text-sky-700">Clinic Management
+              <br /><span class="text-teal-400 drop-shadow-md text-xl md:text-7xl xl:text-sky-700">Clinic Management
                 System</span>
             </h1>
 
@@ -49,10 +55,10 @@
         </div>
       </div>
     </section>
-    <div class="container my-5 px-3 mx-auto">
+    <div class="container  px-3 mx-auto">
 
       <!-- Section: Design Block -->
-      <section class="mb-10 text-gray-800 bg-emerald-400/40 rounded-3xl shadow-md">
+      <section class="mb-10 -mt-16 md:-mt-0 text-gray-800 bg-emerald-400/40 rounded-3xl shadow-md">
 
 
         <div class="px-6 py-12 md:px-12 text-center lg:text-left">

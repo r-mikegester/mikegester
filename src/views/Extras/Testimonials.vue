@@ -1,7 +1,7 @@
 <template>
   <!-- Search component Accordion with name of type,  press Ctrl + F -->
 
-  <div class="accordion h-auto p-4 mx-6">
+  <div class="accordion h-auto p-4 mx-3">
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
@@ -31,80 +31,88 @@
       </ol>
     </nav>
     <!-- end nav -->
+    <div class="mt-5 w-full">
+      <h1 class="text-2xl text-gray-900 font-medium dark:text-gray-200">
+        Testimonials
+      </h1>
+      <p class="mt-1 text-sm font-normal text-gray-400">
+        how people visiting the page, services offered etc.
+      </p>
+    </div>
 
 
-    <div class="grid lg:grid-cols-1 grid-col-1 gap-4 mt-5">
+    <div class="grid lg:grid-cols-1 grid-col-1 gap-4 mt-10">
       <!-- default alert  -->
       <div class="card row-span-1 grid grid-cols-1 gap-5 bg-white dark:bg-gray-800 w-full rounded-3xl p-5 shadow">
 
         <section class="dark:bg-gray-800 dark:text-gray-100">
-          <div class="container px-6 py-12 mx-auto">
+          <div class="container px-3 md:px-6 py-12 mx-auto">
             <div class="grid items-center gap-4 xl:grid-cols-5">
-              <div class="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-                <h2 class="text-4xl font-bold">Currently no people give testimonies...</h2>
-                <p class="dark:text-gray-400">come back again later</p>
+              <div class="max-w-2xl mx-auto my-2 space-y-4 text-center xl:col-span-2 xl:text-left">
+                <h2 class="text-4xl font-bold">People who give their Testimonies</h2>
+                <p class="dark:text-gray-400">about Mike Gester</p>
               </div>
-              <div class="p-6 xl:col-span-3">
+              <div class="p-3 md:p-6 xl:col-span-3">
                 <div class="grid gap-4 md:grid-cols-2">
                   <div class="grid content-center gap-4">
-                    <!--<div class="p-6 rounded shadow-md dark:bg-gray-900">
-              <p>An audire commodo habemus cum. Ne sed corrumpit repudiandae. Tota aliquip democritum pro in,
-                nec democritum intellegam ne. Propriae volutpat dissentiet ea sit, nec at lorem inani tritani,
-                an ius populo perfecto vituperatoribus. Eu cum case modus salutandi, ut eum vocent sensibus
-                reprehendunt.</p>
-              <div class="flex items-center mt-4 space-x-4">
-                <img src="https://source.unsplash.com/50x50/?portrait?1" alt=""
-                  class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
-                <div>
-                  <p class="text-lg font-semibold">Joanne Claudine</p>
-                  <p class="text-sm dark:text-gray-400">Girlfriend</p>
-                </div>
-              </div>
-            </div>
-            <div class="p-6 rounded shadow-md dark:bg-gray-900">
-              <p>Sit wisi sapientem ut, pri civibus temporibus voluptatibus et, ius cu hinc fabulas. Nam meliore
-                minimum et, regione convenire cum id. Ex pro eros mucius consectetuer, pro magna nulla nonumy
-                ne, eam putent iudicabit consulatu cu.</p>
-              <div class="flex items-center mt-4 space-x-4">
-                <img src="https://source.unsplash.com/50x50/?portrait?2" alt=""
-                  class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
-                <div>
-                  <p class="text-lg font-semibold">Eddie Jay Castuera</p>
-                  <p class="text-sm dark:text-gray-400">College Classmate</p>
-                </div>
-              </div>
-            </div>-->
+                    <div class="p-6 rounded-3xl shadow-md dark:bg-gray-900">
+                      <p>An audire commodo habemus cum. Ne sed corrumpit repudiandae. Tota aliquip democritum pro in,
+                        nec democritum intellegam ne. Propriae volutpat dissentiet ea sit, nec at lorem inani tritani,
+                        an ius populo perfecto vituperatoribus. Eu cum case modus salutandi, ut eum vocent sensibus
+                        reprehendunt.</p>
+                      <div class="flex items-center mt-4 space-x-4">
+                        <img src="../../assets/imgs/supp/dyo.png" alt=""
+                          class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                        <div>
+                          <p class="text-lg font-semibold">Joanne Claudine</p>
+                          <p class="text-sm dark:text-gray-400">Cabin Crew</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-6 rounded-3xl shadow-md dark:bg-gray-900">
+                      <p>Sit wisi sapientem ut, pri civibus temporibus voluptatibus et, ius cu hinc fabulas. Nam meliore
+                        minimum et, regione convenire cum id. Ex pro eros mucius consectetuer, pro magna nulla nonumy
+                        ne, eam putent iudicabit consulatu cu.</p>
+                      <div class="flex items-center mt-4 space-x-4">
+                        <img src="../../assets/imgs/supp/eddie-jay.jpg" alt=""
+                          class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                        <div>
+                          <p class="text-lg font-semibold">Eddie Jay Castuera</p>
+                          <p class="text-sm dark:text-gray-400">Cyclist / Programmer</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="grid content-center gap-4">
-                    <!--<div class="p-6 rounded shadow-md dark:bg-gray-900">
-              <p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem elaboraret.
-                Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea noster senserit eam, ferri
-                omittantur ei nec. Id mel solet libris efficiantur, commune explicari et eos. Case movet ad est,
-                sed tota vocent appetere ea.</p>
-              <div class="flex items-center mt-4 space-x-4">
-                <img src="https://source.unsplash.com/50x50/?portrait?3" alt=""
-                  class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
-                <div>
-                  <p class="text-lg font-semibold">Jofeth Gatil</p>
-                  <p class="text-sm dark:text-gray-400">Bestfriend</p>
-                </div>
-              </div>
-            </div>
-            <div class="p-6 rounded shadow-md dark:bg-gray-900">
-              <p>Te omnes virtute volutpat sed. Ei esse eros interesset vel, ei populo denique ocurreret vix, eu
-                cum pertinax mandamus vituperatoribus. Solum nihil luptatum per ex, ei amet viderer eos. Ea
-                illum labitur mnesarchum pro. Eius meis salutandi ei nam, alterum expetenda et nec. Expetenda
-                intellegat at eum, per mazim sanctus honestatis ad. Ei noluisse invenire vix. Te ancillae
-                patrioque qui, probo bonorum vivendum ex vim.</p>
-              <div class="flex items-center mt-4 space-x-4">
-                <img src="https://source.unsplash.com/50x50/?portrait?4" alt=""
-                  class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
-                <div>
-                  <p class="text-lg font-semibold">Leroy Jenkins</p>
-                  <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
-                </div>
-              </div>
-            </div>-->
+                    <div class="p-6 rounded-3xl shadow-md dark:bg-gray-900">
+                      <p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem elaboraret.
+                        Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea noster senserit eam, ferri
+                        omittantur ei nec. Id mel solet libris efficiantur, commune explicari et eos. Case movet ad est,
+                        sed tota vocent appetere ea.</p>
+                      <div class="flex items-center mt-4 space-x-4">
+                        <img src="../../assets/imgs/supp/jofeth.jpg" alt=""
+                          class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                        <div>
+                          <p class="text-lg font-semibold">Jofeth Gatil</p>
+                          <p class="text-sm dark:text-gray-400">Customer Service Representative</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-6 rounded-3xl shadow-md dark:bg-gray-900">
+                      <p>Te omnes virtute volutpat sed. Ei esse eros interesset vel, ei populo denique ocurreret vix, eu
+                        cum pertinax mandamus vituperatoribus. Solum nihil luptatum per ex, ei amet viderer eos. Ea
+                        illum labitur mnesarchum pro. Eius meis salutandi ei nam, alterum expetenda et nec. Expetenda
+                        intellegat at eum, per mazim sanctus honestatis ad. Ei noluisse invenire vix. Te ancillae
+                        patrioque qui, probo bonorum vivendum ex vim.</p>
+                      <div class="flex items-center mt-4 space-x-4">
+                        <img src="../../assets/imgs/supp/denver.png" alt=""
+                          class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                        <div>
+                          <p class="text-lg font-semibold">Denver</p>
+                          <p class="text-sm dark:text-gray-400">3D Modeler</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -120,21 +128,25 @@
 
         <div class="flex items-center ">
           <p
-            class="bg-blue-100 text-blue-800 text-sm font-semibold inline-flex items-center p-1.5 rounded dark:bg-blue-200 dark:text-blue-800">
-            0.0</p>
+            class="bg-emerald-100 text-emerald-800 text-sm font-semibold inline-flex items-center p-1.5 rounded dark:bg-emerald-200 dark:text-emerald-800">
+            6.9</p>
           <p class="ml-2 font-medium text-gray-900 dark:text-white">Unranked</p>
           <span class="w-1 h-1 mx-2 bg-gray-900 rounded-full dark:bg-gray-500"></span>
-          <p class="text-sm font-medium text-gray-500 dark:text-gray-400">0 reviews</p>
-          <a href="#" class="ml-auto text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Read all
-            reviews</a>
+          <p class="text-sm font-medium text-gray-500 dark:text-gray-400">69, 420 reviews</p>
+          <a href="#"
+            class="hidden md:block ml-auto text-sm font-medium text-emerald-400 hover:underline dark:text-emerald-500">Read
+            all
+            reviews</a><span>
+            <Icon icon="line-md:external-link" class="ml-10 md:ml-3 w-7 h-7 text-emerald-400" />
+          </span>
         </div>
-        <!--<div class="gap-8 sm:grid sm:grid-cols-2">
+        <div class="gap-8 sm:grid sm:grid-cols-2">
           <div>
             <dl>
               <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Responsiveness</dt>
               <dd class="flex items-center mb-3">
                 <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                  <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%"></div>
+                  <div class="bg-blue-600 h-2.5 rounded dark:bg-emerald-500" style="width: 88%"></div>
                 </div>
                 <span class="text-sm font-medium text-gray-500 dark:text-gray-400">8.8</span>
               </dd>
@@ -143,7 +155,7 @@
               <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Mobile Friendly</dt>
               <dd class="flex items-center mb-3">
                 <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                  <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 89%"></div>
+                  <div class="bg-blue-600 h-2.5 rounded dark:bg-emerald-500" style="width: 89%"></div>
                 </div>
                 <span class="text-sm font-medium text-gray-500 dark:text-gray-400">8.9</span>
               </dd>
@@ -152,7 +164,7 @@
               <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Free WiFi</dt>
               <dd class="flex items-center mb-3">
                 <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                  <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%"></div>
+                  <div class="bg-blue-600 h-2.5 rounded dark:bg-emerald-500" style="width: 88%"></div>
                 </div>
                 <span class="text-sm font-medium text-gray-500 dark:text-gray-400">8.8</span>
               </dd>
@@ -161,7 +173,7 @@
               <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Facilities</dt>
               <dd class="flex items-center">
                 <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                  <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 54%"></div>
+                  <div class="bg-blue-600 h-2.5 rounded dark:bg-emerald-500" style="width: 54%"></div>
                 </div>
                 <span class="text-sm font-medium text-gray-500 dark:text-gray-400">5.4</span>
               </dd>
@@ -172,7 +184,7 @@
               <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Modern Design</dt>
               <dd class="flex items-center mb-3">
                 <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                  <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 89%"></div>
+                  <div class="bg-blue-600 h-2.5 rounded dark:bg-emerald-500" style="width: 89%"></div>
                 </div>
                 <span class="text-sm font-medium text-gray-500 dark:text-gray-400">8.9</span>
               </dd>
@@ -181,22 +193,22 @@
               <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Cleanliness</dt>
               <dd class="flex items-center mb-3">
                 <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                  <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 70%"></div>
+                  <div class="bg-blue-600 h-2.5 rounded dark:bg-emerald-500" style="width: 70%"></div>
                 </div>
                 <span class="text-sm font-medium text-gray-500 dark:text-gray-400">7.0</span>
               </dd>
             </dl>
             <dl>
-              <dt class="text-sm font-medium text-gray-500 dark:text-gray-400"></dt>
+              <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Material Design</dt>
               <dd class="flex items-center">
                 <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                  <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 89%"></div>
+                  <div class="bg-blue-600 h-2.5 rounded dark:bg-emerald-500" style="width: 89%"></div>
                 </div>
                 <span class="text-sm font-medium text-gray-500 dark:text-gray-400">8.9</span>
               </dd>
             </dl>
           </div>
-        </div>-->
+        </div>
       </div>
 
     </div>
