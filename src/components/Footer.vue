@@ -1,5 +1,5 @@
 <template>
-  <div class="p-6 mx-6 md:mt-64">
+  <div class="p-3 mx-3 mb-16">
     <div
       class="container flex flex-col p-6 mx-auto md:py-2 lg:flex-row divide-gray-400 dark:bg-gray-800 font-lexend shadow-md dark:shadow-emerald-600 rounded-3xl mt-5 ">
       <img src="../assets/imgs/my-logo.png"
@@ -10,7 +10,7 @@
 
       </ul>
       <div class="flex flex-col justify-center md:py-6 lg:py-0 lg:pt-0">
-        <div class="flex justify-center space-x-4">
+        <div class="flex justify-center space-x-2">
           <a rel="noopener noreferrer" href="https://www.gmail.com/support.mikegester@gmail.com" target="_blank"
             title="Email"
             class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 text-emerald-700 bg-emerald-100 dark:hover:border-emerald-400 dark:hover:border-2 dark:hover:bg-transparent dark:hover:text-emerald-400 dark:bg-emerald-400 dark:text-gray-900">
