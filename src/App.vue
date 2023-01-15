@@ -9,9 +9,9 @@
 
 
         <div class="flex-auto w-full h-screen overflow-auto">
-            <Header class="fixed  top-0 z-40 " />
+            <Header class="md:fixed sticky  top-0 z-40 " />
             <div class="flex-auto w-full h-screen overflow-auto" id="body-scroll">
-                <div class="mb-20"></div>
+                <div class="md:mb-20"></div>
                 <router-view />
                 <Footer />
             </div>
