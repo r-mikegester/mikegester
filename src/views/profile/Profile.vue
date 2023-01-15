@@ -1,5 +1,5 @@
 <template>
-  <div class="h-auto p-2 mx-3 accordion">
+  <div class="h-auto p-4 mx-3 md:mb-32">
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
@@ -38,6 +38,14 @@
     </nav>
 
     <!-- end nav -->
+    <div class="mt-5 w-full">
+      <h1 class="text-2xl text-gray-900 font-medium dark:text-gray-200">
+        Profile
+      </h1>
+      <p class="mt-1 text-sm font-normal text-gray-400">
+        Profile, Qoutes, Resume, About the Creator are here.
+      </p>
+    </div>
 
 
     <!--<section class="p-4 mt-64 mb-3 dark:text-gray-100">
@@ -106,10 +114,10 @@
                           class="hidden pr-20 my-auto text-5xl text-left text-white justify-left md:pr-72 px-auto lg:block">
                           About
                         </h2>
-                        <div class="inline-flex shrink-0">
+                        <div class="inline-flex shrink-1">
                           <router-link to="/profile">
                             <div
-                              class="flex items-center justify-center w-20 h-20 p-4 mx-2 border-2 shadow-md bg-transparent text-emerald-600 dark:hover:bg-transparent dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:border-emerald-600 rounded-xl">
+                              class="flex items-center justify-center w-10 h-10 md:w-20 md:h-20 p-1 mx-2 border-2 shadow-md bg-transparent text-emerald-600 dark:hover:bg-transparent dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:border-emerald-600 rounded-xl">
                               <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -119,7 +127,7 @@
                           </router-link>
                           <router-link to="/resume">
                             <div
-                              class="flex items-center justify-center w-20 h-20 p-4 mx-2 border-2 shadow-md bg-emerald-600 text-emerald-900 dark:hover:bg-transparent dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:border-emerald-600 rounded-xl">
+                              class="flex items-center justify-center w-10 h-10 md:w-20 md:h-20 p-1 mx-2 border-2 shadow-md bg-emerald-600 text-emerald-900 dark:hover:bg-transparent dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:border-emerald-600 rounded-xl">
                               <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -130,7 +138,7 @@
                           </router-link>
                           <router-link to="/blog">
                             <div
-                              class="flex items-center justify-center w-20 h-20 p-4 mx-2 border-2 shadow-md bg-emerald-600 text-emerald-900 dark:hover:bg-transparent dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:border-emerald-600 rounded-xl">
+                              class="flex items-center justify-center w-10 h-10 md:w-20 md:h-20 p-1 mx-2 border-2 shadow-md bg-emerald-600 text-emerald-900 dark:hover:bg-transparent dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:border-emerald-600 rounded-xl">
                               <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -142,8 +150,8 @@
                           </router-link>
                           <router-link to="/gallery">
                             <div
-                              class="flex items-center justify-center w-20 h-20 p-4 mx-2 border-2 shadow-md bg-emerald-600 text-emerald-900 dark:hover:bg-transparent dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:border-emerald-600 rounded-xl">
-                              <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"
+                              class="flex items-center justify-center w-10 h-10 md:w-20 md:h-20  p-1 mx-2 border-2 shadow-md bg-emerald-600 text-emerald-900 dark:hover:bg-transparent dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:border-emerald-600 rounded-xl">
+                              <svg class="w-10 h-10 md:w-10 md:h-10" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
                                   d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
@@ -273,7 +281,7 @@
                     <!-- slider and slider items -->
 
                     <div class="mx-6">
-                      <div class="lg:grid grid-cols-12 md:gap-10 pt-4  items-center hidden mx-auto">
+                      <div class="lg:grid grid-cols-12 md:gap-10 pt-4  items-center  mx-auto">
                         <div class="col-span-12 space-y-2.5">
                           <div class="lg:mx-auto">
                             <p class="text-gray-400 dark:text-color-910 leading-7"> I'm Freelancer
