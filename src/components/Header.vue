@@ -77,7 +77,7 @@
         </button>
         <button @click="menuToggle" type="button" @blur="menuToggleBlur" title="Notifications">
           <div
-            class="inline-flex absolute mt-4 justify-center items-center w-4 h-4 text-xs font-bold text-white bg-red-500 animate-ping opacity-75  rounded-full border-2 border-white dark:border-red-900 ">
+            class="theme-first inline-flex absolute mt-4 justify-center items-center w-4 h-4 text-xs font-bold text-white bg-red-500 animate-ping opacity-75  rounded-full border-2 border-white dark:border-red-900 ">
           </div>
           <div
             class="inline-flex absolute mt-4 justify-center items-center w-4 h-4 text-xs font-bold text-white bg-red-500   rounded-full border-2 border-white dark:border-red-900 ">
@@ -92,7 +92,7 @@
         </button>
 
 
-        <router-link to="/profile" title="profile">
+        <button @click="profToggle" type="button" @blur="profToggleBlur">
           <div
             class="user-avatar flex mx-2  cursor-pointer rounded-xl focus:ring-emerald-500 focus:outline-none focus:ring focus:ring-offset-2 active:ring-emerald-400">
             <img src="../assets/imgs/profile-pic.jpg"
@@ -100,12 +100,12 @@
               alt="" />
 
           </div>
-        </router-link>
+        </button>
 
 
         <transition name="fade">
           <div id="dropdownSmall" v-show="menu"
-            class="block absolute right-7 md:right-96  mt-16 z-50  w-80 md:w-96 border dark:border-gray-700 bg-white dark:bg-gray-800  rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
+            class="block absolute right-2 md:right-96  mt-16 z-50  w-96 md:w-96 border dark:border-gray-700 bg-white dark:bg-gray-800  rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
             <div class="flex py-3 px-4 text-sm text-gray-900 dark:text-gray-200">
               <div class="text-xl">Notifications</div>
             </div>
@@ -192,6 +192,70 @@
 
           </div>
         </transition>
+
+        <transition name="prof">
+          <div id="dropdownProf" v-show="prof"
+            class="block absolute right-2 md:right-96 mt-16 z-10 w-64 border  dark:border-gray-700 bg-white dark:bg-gray-800 rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
+            <div class="py-1 mt-4 px-4 text-sm text-gray-900 dark:text-gray-200">
+              <span class="my-2 text-md text-semibold">Accent Color: <span
+                  class="inline-flex items-center justify-center px-2  ml-3 text-sm font-medium rounded-full text-emerald-500 bg-emerald-100 dark:bg-emerald-600 dark:text-white">COMING
+                  SOON</span>
+              </span>
+              <span class="bg-transparent block  rounded-xl py-1 px-2 text-xs text-gray-200">
+                <div class="flex space-x-2 mx-auto p-2">
+                  <span id="theme-toggle-light-icon" @click="document.body.classList.add('theme-first')"
+                    class="bg-purple-400 text-gray-200 rounded  ease-in-out duration-200 w-10 h-10 cursor-pointer hover:border-2 outline-offset-2 border-gray-400 "
+                    title="White"></span>
+                  <span id="second"
+                    class="bg-red-500 text-gray-200 rounded  ease-in-out duration-200 w-10 h-10 cursor-pointer hover:border-2 outline-offset-2 border-gray-400"
+                    title="Scarlet"></span>
+                  <span id="third"
+                    class="bg-emerald-400 text-gray-200 rounded  ease-in-out duration-200 w-10 h-10 cursor-pointer hover:border-2 outline-offset-2 border-gray-400"
+                    title="Default"></span>
+                  <span id="theme-toggle-dark-icon"
+                    class="bg-blue-400 text-gray-200 rounded  ease-in-out duration-200 w-10 h-10 cursor-pointer hover:border-2 outline-offset-2 border-gray-400"
+                    title="Blue"></span>
+                </div>
+
+              </span>
+            </div>
+            <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownProfButton">
+              <li>
+                <router-link to="/adminlogin"
+                  class="flex py-4 px-4 ease-in-out duration-300 hover:bg-emerald-500 hover:dark:bg-gray-700 hover:text-white"><span
+                    class="mr-3 text-xl">
+                    <Icon icon="mdi:user-lock" class="w-6 h-6" />
+                  </span>
+                  <span class="w-full"> Admin Login</span></router-link>
+              </li>
+              <li>
+                <router-link to="/profile"
+                  class="flex py-4 px-4 ease-in-out duration-300 hover:bg-emerald-500 hover:dark:bg-gray-700 hover:text-white"><span
+                    class="mr-3 text-xl">
+                    <Icon icon="fa6-solid:user" class="w-6 h-6" />
+                  </span>
+                  <span class="w-full">Profile</span></router-link>
+              </li>
+              <li>
+                <router-link to="/settings"
+                  class="flex py-4 px-4 ease-in-out duration-300 hover:bg-emerald-500 hover:dark:bg-gray-700 hover:text-white"><span
+                    class="mr-3 text-xl">
+                    <Icon icon="eos-icons:rotating-gear" class="w-6 h-6" />
+                  </span>
+                  <span class="w-full">Settings</span></router-link>
+              </li>
+            </ul>
+            <div class="py-1">
+              <a href="/https://mikegester.crisp.help/en/"
+                class="flex py-4 px-4 ease-in-out duration-300 hover:bg-emerald-500 hover:dark:bg-gray-700 hover:text-white dark:text-gray-400 text-gray-700">
+                <span class="mr-3 text-xl">
+                  <Icon icon="line-md:question-circle" class="w-6 h-6" />
+                </span>
+                <span>Help</span></a>
+            </div>
+          </div>
+        </transition>
+
       </div>
     </div>
   </header>
@@ -203,6 +267,7 @@ export default {
   data() {
     return {
       menu: false,
+      prof: false,
     };
   },
   components: {
@@ -215,6 +280,19 @@ export default {
     menuToggleBlur: function () {
       this.menu = false;
     },
+    profToggle: function () {
+      this.prof = !this.prof;
+    },
+    profToggleBlur: function () {
+      this.prof = false;
+    },
+
+    closeWindow: function () {
+      document.getElementById(".closeWindow").addEventListener("click", function () {
+        window.close();
+      });
+    },
+
     sidebarToggle: function () {
       document.querySelector(".flex-sidebar").classList.remove("hidden");
     },
@@ -273,5 +351,8 @@ export default {
       }
     });
   },
+
+
+
 };
 </script>
