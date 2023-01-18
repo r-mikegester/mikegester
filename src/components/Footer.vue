@@ -1,7 +1,7 @@
 <template>
   <div class="p-3 mx-3 mb-16">
     <div
-      class="container flex flex-col p-6 mx-auto md:py-2 lg:flex-row divide-gray-400 dark:bg-gray-800 font-lexend shadow-md dark:shadow-emerald-600 rounded-3xl mt-5 ">
+      class="container flex flex-col p-6 mx-auto md:py-2 lg:flex-row divide-gray-400 dark:bg-gray-800 font-lexend shadow-md dark:shadow-emerald-600 rounded-3xl md:rounded-xl mt-5 ">
       <img src="../assets/imgs/my-logo.png"
         class=" self-center w-20 h-20 md:w-10 md:h-10 mr-3 justify-center items-center" alt="">
       <ul
