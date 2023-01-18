@@ -31,80 +31,55 @@
 
   <div class="container px-3 mt-5 mx-auto">
 
-    <!-- Section: Design Block -->
-    <section class="mb-10 ">
 
-      <router-link to="/projects">
-        <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-3xl mx-3 md:shadow-md"
-          style="background-position: 50%; background-image: url('../assets/imgs/preview/lfidentalclinicpreview.jpg'); height: 500px;">
-          <img src="../assets/imgs/preview/lfidentalclinicpreview.jpg" class="rounded-3xl" />
-        </div>
-      </router-link>
-      <div class="container mx-auto px-3 md:px-12 xl:px-32 -mt-64 pt-16 md:-mt-0 md:pt-0">
-        <div class="text-center text-gray-800">
-          <div class="block rounded-3xl shadow-lg px-6 py-6 md:py-16 md:px-12 bg-teal-400/40"
-            style="margin-top: -170px; backdrop-filter: blur(30px);">
-            <h1 class="text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight">Latest Project I've Built:
-              <br /><span class="text-teal-400 drop-shadow-md text-xl md:text-7xl xl:text-sky-700">Clinic Management
-                System</span>
-            </h1>
-
-
-
+    <!-- Card Blog -->
+    <div class="max-w-[100rem] px-3 mb-10 sm:px-6 lg:px-3 lg:mb-10 mx-auto">
+      <!-- Grid -->
+      <div class="grid lg:grid-cols-1 gap-y-12">
+        <!-- Card -->
+        <router-link to="/projects" class="group relative block" href="#">
+          <div
+            class="flex-shrink-0 relative rounded-3xl overflow-hidden w-full h-[350px] md:h-[550px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]">
+            <img class="w-full h-full absolute top-0 left-0 object-cover"
+              src="../assets/imgs/preview/lfidentalclinicpreview.jpg" alt="Image Description">
           </div>
-        </div>
-      </div>
-    </section>
-    <div class="container  px-3 mx-auto">
 
-      <!-- Section: Design Block -->
-      <!--<section class="mb-10 -mt-16 md:-mt-0 text-gray-800 bg-emerald-400/40 rounded-3xl shadow-md">
-
-
-        <div class="px-6 py-12 md:px-12 text-center lg:text-left">
-          <div class="container mx-auto">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-              <div class=" lg:mt-0">
-                <h1 class="text-3xl md:text-6xl xl:text-7xl font-bold tracking-tight md:mb-5 text-white">
-                  Famous Logo's <br /><span class="text-emerald-400">using html and css</span>
-                </h1>
-                <p class=" text-sm px-6 md:text-lg text-white">
-                  some of the "FLUHACSS" Series you might not want to miss.
-                </p>
-              </div>
-              <div class=" lg:mb-0">
-                <div
-                  class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-3xl shadow-lg"
-                  style="padding-top: 56.25%">
-                  <iframe class="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
-                    src="https://www.youtube.com/embed/J1eGdTans30" allowfullscreen=""
-                    data-gtm-yt-inspected-2340190_699="true" id="240632615"></iframe>
+          <div class="absolute hidden md:bottom-0 md:inset-x-0 z-10">
+            <div class="p-4 flex flex-col h-full sm:p-6">
+              <!-- Avatar -->
+              <div class="flex items-center">
+                <div class="flex-shrink-0">
+                  <img class="h-[2.875rem] w-[2.875rem] border-2 border-emerald-400 rounded-full"
+                    src="../assets/imgs/profile-pic.jpg" alt="Image Description">
                 </div>
-              </div>
 
-              <div class=" lg:mb-0">
-                <div
-                  class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-3xl shadow-lg"
-                  style="padding-top: 56.25%">
-                  <iframe class="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
-                    src="https://www.youtube.com/embed/QC6DJUpTUoQ" allowfullscreen=""
-                    data-gtm-yt-inspected-2340190_699="true" id="240632615"></iframe>
-                </div>
               </div>
-
-              <div class=" lg:mb-0">
-                <div
-                  class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-3xl shadow-lg"
-                  style="padding-top: 56.25%">
-                  <iframe class="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
-                    src="https://www.youtube.com/embed/iCVhWVb4n5c" allowfullscreen=""
-                    data-gtm-yt-inspected-2340190_699="true" id="240632615"></iframe>
-                </div>
-              </div>
+              <!-- End Avatar -->
             </div>
           </div>
-        </div>
-      </section>-->
+
+          <div class="absolute bottom-0 inset-x-0 z-10">
+            <div class="flex flex-col h-full p-4 sm:p-6">
+              <h3 class="md:text-5xl text-2xl font-semibold text-white group-hover:text-emerald-500/[.8]">
+                Latest Project I've Built:
+              </h3>
+              <p class="md:mt-2 text-sm md:text-3xl text-white/[.8]">
+                Clinic Management System for LFI Dental Clinic
+              </p>
+            </div>
+          </div>
+        </router-link>
+        <!-- End Card -->
+
+        <!-- Card -->
+
+        <!-- End Card -->
+      </div>
+      <!-- End Grid -->
+    </div>
+    <!-- End Card Blog -->
+
+    <div class="container  px-3 mx-auto">
 
       <div class="relative overflow-hidden rounded-3xl mb-10 bg-white dark:bg-gray-800 shadow-md">
         <section class="overflow-hidden py-10 px-6 md:px-20 mx-auto lg:py-10">
@@ -113,8 +88,9 @@
             <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
               <!-- Title -->
               <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Latest Blog</h2>
-                <p class="mt-1 text-gray-600 dark:text-gray-400">See how lifes going with people behind code, bars, and
+                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Latest Blog Collections</h2>
+                <p class="mt-1 text-gray-600 dark:text-gray-400">See how lifes going with people behind codes, bars,
+                  tanks and
                   a cup of coffee.</p>
               </div>
               <!-- End Title -->
@@ -131,7 +107,7 @@
                   </div>
                   <div class="my-6">
                     <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-                      Announcing a free plan for small teams
+                      Cycling Related Blog
                     </h3>
                     <p class="mt-5 text-gray-600 dark:text-gray-400">
                       At Wake, our mission has always been focused on bringing openness.
@@ -156,7 +132,7 @@
                   </div>
                   <div class="my-6">
                     <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-                      How Google Assistant now helps you record stories for kids
+                      Learning Programming Blogs
                     </h3>
                     <p class="mt-5 text-gray-600 dark:text-gray-400">
                       Google is constantly updating its consumer AI, Google Assistant, with new features.
@@ -181,7 +157,7 @@
                   </div>
                   <div class="my-6">
                     <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-                      Front accounts - let's work together
+                      Aquascaping tank setups
                     </h3>
                     <p class="mt-5 text-gray-600 dark:text-gray-400">
                       Are you an accountant? Are you a company formation advisor?
@@ -262,7 +238,7 @@
     <!-- ====== About Section Start -->
 
     <!-- ====== About Section End -->
-    <!--<div class="flex items-center justify-center px-4 lg:px-0 py-12">
+    <div class="flex items-center justify-center px-4 lg:px-0 py-12">
       <div id="alert"
         class="transition duration-150 ease-in-out lg:w-11/12 mx-auto py-3 px-4 dark:bg-gray-800 bg-white md:flex items-center justify-between shadow rounded">
         <div class="sm:flex sm:items-start lg:items-center">
@@ -292,7 +268,7 @@
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
     <!---->
   </div>
 </template>
@@ -307,24 +283,24 @@ export default {
     Icon,
   },
   mounted() { },
-  //  name: "SimpleWithActionButtonWarning",
-  //  mounted: function () {
-  //    this.onLoad();
-  //  },
-  //  methods: {
-  //   onLoad() {
-  //    var Alert = document.getElementById("alert");
-  //   Alert.style.transform = "translateY(-200%)";
-  //  setTimeout(function () {
-  //     Alert.style.transform = "translateY(0%)";
-  //  }, 1000);
-  // },
-  //closeAlert() {
-  // var Alert = document.getElementById("alert");
-  // Alert.style.display = "none";
-  // this.onLoad();
-  // },
-  // },
+  name: "SimpleWithActionButtonWarning",
+  mounted: function () {
+    this.onLoad();
+  },
+  methods: {
+    onLoad() {
+      var Alert = document.getElementById("alert");
+      Alert.style.transform = "translateY(-200%)";
+      setTimeout(function () {
+        Alert.style.transform = "translateY(0%)";
+      }, 1000);
+    },
+    closeAlert() {
+      var Alert = document.getElementById("alert");
+      Alert.style.display = "none";
+      this.onLoad();
+    },
+  },
 };
 </script>
 
