@@ -68,19 +68,18 @@
               </div>
 
               <div class="mb-6 md:mb-0">
-                <h3 class="text-4xl font-bold mb-3">Customized Website Design</h3>
+                <h3 class="text-4xl font-bold mb-3">Personalized Website Design</h3>
                 <div
-                  class="mb-3 text-emerald-700 font-medium text-xl flex items-center justify-center md:justify-start">
-                  <Icon icon="gg:website" class="w-10 h-10" /><span class="ml-3"> Modern Website Design</span>
-
-                  <p class="text-gray-500 mx-6">
-                    A Personalized Website for you or your company, work, friend, projects, thesis and etc. gives your
-                    business or freelancing makes more personal.
-                  </p>
+                  class="mb-3 text-emerald-600 font-medium text-xl flex items-center justify-center md:justify-start">
+                  <Icon icon="gg:website" class="w-7 h-7" /><span class="ml-3"> Modern Website Design</span>
                 </div>
+                <p class="text-gray-500 md:mx-0 mx-6">
+                  A Personalized Website for you, your work, your friend, your projects, your thesis etc. gives
+                  freedom
+                  to customized it till your satisfied.
+                </p>
               </div>
             </div>
-
             <div class="grid md:grid-cols-2 gap-x-6 xl:gap-x-12 items-center mb-12">
               <div class=" md:mb-0 md:order-2">
                 <div class="relative overflow-hidden bg-no-repeat bg-cover m-6 ripple shadow-lg rounded-3xl"
