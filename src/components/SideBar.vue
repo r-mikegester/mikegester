@@ -233,7 +233,7 @@
                               <template v-slot:content>
                                 <div class="ml-5">
 
-                                  <div class="item my-3">
+                                  <div class="item my-3" disabled>
                                     <router-link to="/themepicker"
                                       class="w-full flex text-left rounded-xl box-border p-3 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
                                       <span class="mr-3 text-xl">
@@ -287,14 +287,13 @@
         class="flex flex-col mt-10 bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
         <div class="p-4 md:p-5">
           <h3 class="text-lg font-bold text-gray-800 dark:text-white">
-            Card title
+            Reminder
           </h3>
           <p class="mt-2 text-gray-800 dark:text-gray-400">
-            With supporting text below as a natural lead-in to additional content.
+            This website is still on development and currently being maintained
           </p>
-          <a class="mt-3 inline-flex items-center gap-2 mt-5 text-sm font-medium text-blue-500 hover:text-blue-700"
-            href="#">
-            Card link
+          <a class="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-500 hover:text-blue-700" href="">
+            Chat with me!
             <svg class="w-2.5 h-auto" width="16" height="16" viewBox="0 0 16 16" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path d="M5 1L10.6869 7.16086C10.8637 7.35239 10.8637 7.64761 10.6869 7.83914L5 14" stroke="currentColor"

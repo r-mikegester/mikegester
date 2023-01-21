@@ -1,22 +1,24 @@
 <template>
-  <div class=" p-4 ">
-    <nav class="flex" aria-label="Breadcrumb">
+  <div class="accordion py-4 h-auto ">
+    <nav class="flex px-4" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
-          <a href="#"
+          <router-link to="/"
             class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
-            <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
               </path>
             </svg>
             Home
-          </a>
+          </router-link>
         </li>
+
+
       </ol>
     </nav>
     <!-- end nav -->
-    <div class="mt-5 w-full">
+    <div class="mt-5 px-4 w-full">
       <h1 class="text-2xl text-gray-900 font-medium dark:text-gray-200">
         Homepage
       </h1>
@@ -29,7 +31,7 @@
 
   </div>
 
-  <div class="container px-3 mt-5 mx-auto">
+  <div class="container mt-5 mx-auto">
 
 
     <!-- Card Blog -->
@@ -101,9 +103,7 @@
                 <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4]"
                   href="#">
                   <div class="aspect-w-16 aspect-h-11">
-                    <img class="w-full object-cover rounded-xl"
-                      src="https://images.unsplash.com/photo-1633114128174-2f8aa49759b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                      alt="Image Description">
+                    <img class="w-full object-cover rounded-xl" src="../assets/imgs/cover2.jpg" alt="Image Description">
                   </div>
                   <div class="my-6">
                     <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
@@ -126,8 +126,7 @@
                 <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4]"
                   href="#">
                   <div class="aspect-w-16 aspect-h-11">
-                    <img class="w-full object-cover rounded-xl"
-                      src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"
+                    <img class="w-full object-cover rounded-xl" src="../assets/imgs/programming.jpg"
                       alt="Image Description">
                   </div>
                   <div class="my-6">
@@ -151,8 +150,7 @@
                 <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4]"
                   href="#">
                   <div class="aspect-w-16 aspect-h-11">
-                    <img class="w-full object-cover rounded-xl"
-                      src="https://images.unsplash.com/photo-1521321205814-9d673c65c167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3548&q=80"
+                    <img class="w-full object-cover rounded-xl" src="../assets/imgs/aquascape.jpg"
                       alt="Image Description">
                   </div>
                   <div class="my-6">
@@ -235,6 +233,35 @@
       </div>
     </div>
 
+    <section class="bg-transparent p-3 mt-5 lg:flex lg:justify-center">
+      <div
+        class="overflow-hidden bg-white dark:bg-gray-900 rounded-3xl lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
+        <div class="lg:w-1/2">
+          <div class="h-64 bg-cover lg:h-full"
+            style="background-image:url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')">
+          </div>
+        </div>
+
+        <div class="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
+          <h2 class="text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
+            Build Your New <span class="text-blue-500">Idea</span>
+          </h2>
+
+          <p class="mt-4 text-gray-500 dark:text-gray-300">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam
+            mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.
+          </p>
+
+          <div class="inline-flex w-full mt-6 sm:w-auto">
+            <a href="#"
+              class="inline-flex items-center justify-center w-full px-6 py-2 text-sm text-white duration-300 bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+              Start Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ====== About Section Start -->
 
     <!-- ====== About Section End -->
