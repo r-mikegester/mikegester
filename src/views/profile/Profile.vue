@@ -81,95 +81,7 @@
                         <a rel="noopener noreferrer" href="#"
                           class="flex items-center px-3 text-xs md:text-lg  md:px-4 md:-mb-1 border-b-2 dark:border-transparent hover:text-gray-400">Qoutes</a>
                       </li>
-                      <li class="flex">
-                        <div class=" bg-transparent flex md:-mb-1 justify-between hover:text-gray-400  cursor-pointer"
-                          data-menu>
-                          <a rel="noopener noreferrer" href="#"
-                            class="flex items-center px-3 text-xs md:text-lg  md:px-4 md:-mb-1 border-b-2 dark:border-transparent ">
-                            <Icon icon="material-symbols:more-horiz" class="w-8 h-8" />
 
-                          </a>
-
-                          <ul
-                            class="visible transition duration-300 opacity-100 bg-white dark:bg-gray-700 shadow rounded-xl mt-16 py-1 w-48 right-3 md:inset-x-auto absolute">
-                            <li
-                              class="cursor-pointer text-gray-600 dark:text-gray-400 text-sm leading-3 tracking-normal py-3 hover:bg-gray-600 px-3 m-3 rounded-lg flex items-center">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book"
-                                width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                                <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                                <line x1="3" y1="6" x2="3" y2="19" />
-                                <line x1="12" y1="6" x2="12" y2="19" />
-                                <line x1="21" y1="6" x2="21" y2="19" />
-                              </svg>
-                              <span class="ml-2 font-normal">Supporters</span>
-                            </li>
-                            <li
-                              class="cursor-pointer text-gray-600 dark:text-gray-400 text-sm leading-3 tracking-normal py-3 hover:bg-gray-600 px-3 m-3 rounded-lg flex items-center">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard"
-                                width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <path
-                                  d="M9 5H7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2V7a2 2 0 0 0 -2 -2h-2" />
-                                <rect x="9" y="3" width="6" height="4" rx="2" />
-                              </svg>
-                              <span class="ml-2 font-normal">Testimonials</span>
-                            </li>
-                            <li
-                              class="cursor-pointer text-gray-600 dark:text-gray-400 text-sm leading-3 tracking-normal py-3 hover:bg-gray-600 px-3 m-3 rounded-lg flex items-center">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-compass"
-                                width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <polyline points="8 16 10 10 16 8 14 14 8 16" />
-                                <circle cx="12" cy="12" r="9" />
-                              </svg>
-                              <span class="ml-2 font-normal">Social Media</span>
-                            </li>
-                            <li>
-
-                            </li>
-                            <li
-                              class="cursor-pointer text-gray-600 dark:text-gray-400 text-sm leading-3 tracking-normal py-3 hover:bg-gray-600 px-3 m-3 rounded-lg flex items-center font-normal">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile"
-                                width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <rect x="7" y="4" width="10" height="16" rx="1" />
-                                <line x1="11" y1="5" x2="13" y2="5" />
-                                <line x1="12" y1="17" x2="12" y2="17.01" />
-                              </svg>
-                              <span class="ml-2">Notifications</span>
-                            </li>
-                            <li
-                              class="cursor-pointer text-gray-600 dark:text-gray-400 text-sm leading-3 tracking-normal py-3 hover:bg-gray-600 px-3 m-3 rounded-lg flex items-center font-normal">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag"
-                                width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <path
-                                  d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-                                <circle cx="9" cy="9" r="2" />
-                              </svg>
-                              <span class="ml-2">Account Data</span>
-                            </li>
-                            <li
-                              class="cursor-pointer text-gray-600 dark:text-gray-400 text-sm leading-3 tracking-normal py-3 hover:bg-gray-600 px-3 m-3 rounded-lg flex items-center font-normal">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="16"
-                                height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <line x1="18" y1="6" x2="6" y2="18" />
-                                <line x1="6" y1="6" x2="18" y2="18" />
-                              </svg>
-                              <span class="ml-2">Sign Out</span>
-                            </li>
-                          </ul>
-                        </div>
-                      </li>
 
                     </ul>
                   </div>
@@ -191,53 +103,30 @@
         </div>
       </div>
     </section>
+    <div class="container mx-auto px-20 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-6 gap-8">
+      <!-- Remove class [ h-24 ] when adding a card block -->
+      <!-- Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border -->
 
+      <div class=" rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24"></div>
+      <!-- Remove class [ h-24 ] when adding a card block -->
+      <!-- Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border -->
+      <div class="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24"></div>
+      <!-- Remove class [ h-24 ] when adding a card block -->
+      <!-- Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border -->
+      <div class="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24"></div>
+      <!-- Remove class [ h-24 ] when adding a card block -->
+      <!-- Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border -->
+      <div class="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24"></div>
+    </div>
   </div>
 </template>
 
 <script>
 import { Icon } from "@iconify/vue";
-
 export default {
   name: "Profile",
   components: {
     Icon,
-  },
-  data() {
-    return {
-
-
-    };
-  },
-  name: "MenuDropdown",
-  mounted: function () {
-    this.main();
-  },
-  methods: {
-    main() {
-      let elements = document.querySelectorAll("[data-menu]");
-      for (let i = 0; i < elements.length; i++) {
-        let main = elements[i];
-
-        main.addEventListener("click", function () {
-          let element = main.parentElement.parentElement;
-          let child = element.querySelector("ul");
-          if (child.classList.contains("opacity-0")) {
-            child.classList.toggle("invisible");
-            child.classList.toggle("visible");
-
-          } else {
-            setTimeout(function () {
-              child.classList.toggle("invisible");
-              child.classList.toggle("visible");
-            }, 300);
-
-          }
-          child.classList.toggle("opacity-0");
-          child.classList.toggle("opacity-100");
-        });
-      }
-    },
   },
 };
 </script>
