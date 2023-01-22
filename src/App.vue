@@ -13,7 +13,8 @@
             <div class="flex-auto w-full h-screen overflow-auto" id="body-scroll">
                 <div class="md:mb-20"></div>
                 <router-view />
-                <Footer />
+                <div class="md:mb-20"></div>
+                <Footer class="mt-96" />
             </div>
         </div>
     </div>
@@ -24,16 +25,16 @@
 // vue Components
 import Sidebar from "./components/SideBar.vue";
 import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
+//import Footer from "./components/Footer.vue";
 // npm-js
-import Scrollbar from "smooth-scrollbar";
+//import Scrollbar from "smooth-scrollbar";
 
 export default {
     name: "App",
 
     components: {
         Header,
-        Footer,
+        //  Footer,
         Sidebar,
     },
     mounted() {
