@@ -105,7 +105,7 @@
 
         <transition name="fade">
           <div id="dropdownSmall" v-show="menu"
-            class="block absolute right-2 md:right-96  mt-16 z-50  w-96 md:w-96 border dark:border-gray-700 bg-white dark:bg-gray-800  rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
+            class="block absolute right-5 md:right-96  mt-16 z-50  w-80 md:w-96 border dark:border-gray-700 bg-white dark:bg-gray-800  rounded-xl divide-y dark:divide-gray-700 divide-gray-100 shadow">
             <div class="flex py-3 px-4 text-sm text-gray-900 dark:text-gray-200">
               <div class="text-xl">Notifications</div>
             </div>
