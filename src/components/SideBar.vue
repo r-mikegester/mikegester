@@ -11,7 +11,7 @@
           </span>
         </div>
       </router-link>
-      <button class="lg:hidden block float-right -mt-9 text-gray-400 dark:hover:text-emerald-500"
+      <button class="lg:hidden  block float-right -mt-9 text-gray-400 dark:hover:text-emerald-500"
         @click="sidebarToggle">
         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true">
@@ -68,7 +68,7 @@
 
 
         <div class="item my-3">
-          <router-link to="/contact"
+          <button @click="jsuscrisp" to="/contact"
             class="w-full flex text-left rounded-xl box-border p-3 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
             <span class="mr-3 text-xl">
               <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -78,8 +78,8 @@
                 </path>
               </svg>
             </span>
-            <span class="w-full"> Contact</span>
-          </router-link>
+            <span class="w-full"> Chat</span>
+          </button>
         </div>
 
         <div class="my-3">
@@ -182,13 +182,13 @@
                           </router-link>
                         </div>
                         <div class="item my-1">
-                          <a href="https://mikegester.crisp.help/en/" target="_blank"
+                          <button @click="jsuscrisp"
                             class="w-full flex text-left rounded-xl box-border p-3 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
                             <span class="mr-3 text-xl">
                               <Icon icon="line-md:question-circle" class="w-7 h-7" />
                             </span>
-                            <span class="w-full">Help</span>
-                          </a>
+                            <span class="w-full">Help and Support</span>
+                          </button>
                         </div>
 
                         <div class="item my-3">
@@ -292,14 +292,15 @@
           <p class="mt-2 text-gray-800 dark:text-gray-400">
             This website is still on development and currently being maintained
           </p>
-          <a class="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-500 hover:text-blue-700" href="">
+          <button @click="jsuscrisp"
+            class="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-500 hover:text-blue-700" href="">
             Chat with me!
             <svg class="w-2.5 h-auto" width="16" height="16" viewBox="0 0 16 16" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path d="M5 1L10.6869 7.16086C10.8637 7.35239 10.8637 7.64761 10.6869 7.83914L5 14" stroke="currentColor"
                 stroke-width="2" stroke-linecap="round" />
             </svg>
-          </a>
+          </button>
         </div>
       </div>
     </div>
@@ -308,7 +309,7 @@
 </template>
 
 <script>
-import { Alert } from "flowbite-vue";
+
 import { Icon } from "@iconify/vue";
 import MenuAccordion from "./MenuAccordion.vue";
 export default {
@@ -321,6 +322,9 @@ export default {
     sidebarToggle: function () {
       document.querySelector(".flex-sidebar").classList.add("hidden");
     },
+    jsuscrisp: function () {
+      $crisp.push(['do', 'chat:open'])
+    }
   },
   mounted() { },
 
